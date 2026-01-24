@@ -26,20 +26,35 @@ def swap_case(s):
     Sawps the cases of letters in the string
     """
 
-    copy_s = s
+    copy_s = []
 
     # first, we go through the entire string
     for i in range(len(s)):
-        if s[i].isupper():
-            copy_s[i].lower()
-            print(copy_s[i].lower())
-        elif s[i].islower():
-            copy_s[i].upper()
-            print(copy_s[i].upper())
 
-    return copy_s
+        # checking if a character is upper
+        if s[i].isupper():
+
+            # converting uppercase letters to lowercase letters
+            copy_s.append(s[i].lower())
+        
+        # next, checking if a character is lower
+        elif s[i].islower():
+
+            # then, convert to uppercase
+            copy_s.append(s[i].upper())
+        
+        else:
+            copy_s.append(s[i])
+
+    # return a joined string
+    return "".join(copy_s)
+
+
 
 if __name__ == '__main__':
-    s = 'Pythonist 2'
+    s = 'Www.HackerRank.com'
     result = swap_case(s)
     print(result)
+
+
+    

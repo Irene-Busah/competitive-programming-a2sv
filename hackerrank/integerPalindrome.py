@@ -29,3 +29,7 @@ class Solution:
 
 if __name__ == '__main__':
     print(Solution().isPalindrome(121))
+
+
+# - First 3 months, $10 per hour, min 20 hrs per week.
+# - After 3 months, $12 per hour, min 20 hrs per week.
