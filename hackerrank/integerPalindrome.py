@@ -22,7 +22,7 @@ class Solution:
             reversed = new_num + reminder # 1
             x //= 10
 
-            print(reminder, new_num)
+            # print(reminder, new_num)
 
         return reversed == copy_x
 
