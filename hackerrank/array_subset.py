@@ -55,7 +55,26 @@ class Solution:
         # return True
 
         # APPROACH 2
+        counter_a = {}
+        counter_b = {}
+
+        for num in a:
+            if num in counter_a.keys():
+                counter_a[num] += 1
+            else:
+                counter_a[num] = 1
+
+        for num in b:
+            if num in counter_b.keys():
+                counter_b[num] += 1
+            else:
+                counter_b[num] = 1
         
+        for val in counter_b:
+            if counter_b[val] > counter_a[val]:
+                return False
+        
+        return True
     
     
 if __name__ == '__main__':
