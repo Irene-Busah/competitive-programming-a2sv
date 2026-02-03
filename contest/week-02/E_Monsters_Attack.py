@@ -60,7 +60,7 @@ import sys
 
 
 # defining useful function for input data collection
-def getInt(): return int(sys.stdin.readline().strip())
+def getInt(): return int(sys.stdin.gettingline().strip())
 def getStr(): return sys.stdin.readline().strip()
 def getIntSeq(): return map(int, sys.stdin.readline().strip().split())
 def getStrSeq(): return sys.stdin.readline().strip().split()
@@ -68,28 +68,53 @@ def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
 def getStrList(): return list(sys.stdin.readline().strip().split())
 
 
-# getting all the input data
+# getting the number of test cases
 numOfTestCases = getInt()
 
 for i in range(numOfTestCases):
+
+    # getting the number of monsters and bullets we can fire per second
     numOfMonsters, numOfBullets = getIntSeq()
+
+    # getting the health of each monster
     monstersHealth = getIntList()
+
+    # getting the position of each monster
     monstersPosition = getIntList()
 
+    # create an array to store total health at each distance
+    # index = distance from player
     healthByDistance = [0] * (numOfMonsters + 1)
 
+    # grouping the monsters by their distance from the player
     for ai, xi in zip(monstersHealth, monstersPosition):
-        distance = abs(xi)
-        healthByDistance[distance] += ai
-    
-    total = 0
-    status = True
 
-    for dist in range(1, numOfMonsters+1):
+        # how far monster is from player
+        distance = abs(xi)    
+
+        # add its health to that distance          
+        healthByDistance[distance] += ai  
+
+    # total health of monsters that must be killed so far
+    total = 0   
+
+
+    # assume we can survive      
+    status = True      
+
+    # go through each possible distance in increasing order
+    for dist in range(1, numOfMonsters + 1):
+
+        # add health of monsters at this distance
         total += healthByDistance[dist]
+
+        # by time = dist seconds, we can fire at most k * dist bullets
+        # if required bullets exceed what we can shoot → we lose
         if total > numOfBullets * dist:
             status = False
             break
-    
+
+    # print result for this test case
     print("YES" if status else "NO")
+
 

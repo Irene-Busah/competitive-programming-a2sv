@@ -39,5 +39,23 @@ def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
 def getStrList(): return list(sys.stdin.readline().strip().split())
 
 
+# getting the number of test cases
+numOfTestCases = getInt()
+
+
+for _ in range(numOfTestCases):
+    integers = getIntList()
+
+    maxMoves = 5
+
+    while maxMoves > 0:
+        indx = integers.index(min(integers))
+        integers[indx] += 1
+        maxMoves -= 1
+
+    answer = integers[0] * integers[1] * integers[2]
+
+    print(answer)
+
 
 
