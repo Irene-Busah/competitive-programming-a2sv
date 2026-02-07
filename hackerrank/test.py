@@ -86,17 +86,31 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         """
-        
+        Returns duplicates
         
         :param nums: Description
         :type nums: List[int]
         :return: Description
         :rtype: int
+
+        APPROACH doesn't work for in-place removal
         """
+
+        counter = Counter(nums)
+
+        for key, val in counter.items():
+            if val > 2:
+                counter[key] = 2
+            # print(key, val)
+        result = [key for key, val in counter.items() for _ in range(val)]
+
+        print(result, len(result))
 
 
 if __name__ == '__main__':
    nums = [1,1,1,2,2,3]
    
+#    nums = [0,0,1,1,1,1,2,3,3]
+
 
    Solution().removeDuplicates(nums)
