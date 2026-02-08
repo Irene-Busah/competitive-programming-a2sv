@@ -51,41 +51,54 @@ from typing import List
 
 
 """
-Given an integer array nums of length n, you want to create an array ans of length 2n where 
-ans[i] == nums[i] and ans[i + n] == nums[i] for 0 <= i < n (0-indexed).
+Given an integer array nums of length n where all the integers of nums are in the range [1, n] 
+and each integer appears at most twice, return an array of all the integers that appears twice.
 
-Specifically, ans is the concatenation of two nums arrays.
-
-Return the array ans.
+You must write an algorithm that runs in O(n) time and uses only constant auxiliary space, 
+excluding the space needed to store the output
 
  
 
 Example 1:
+==========
+Input: nums = [4,3,2,7,8,2,3,1]
+Output: [2,3]
 
-Input: nums = [1,2,1]
-Output: [1,2,1,1,2,1]
-Explanation: The array ans is formed as follows:
-- ans = [nums[0],nums[1],nums[2],nums[0],nums[1],nums[2]]
-- ans = [1,2,1,1,2,1]
 Example 2:
+==========
+Input: nums = [1,1,2]
+Output: [1]
 
-Input: nums = [1,3,2,1]
-Output: [1,3,2,1,1,3,2,1]
-Explanation: The array ans is formed as follows:
-- ans = [nums[0],nums[1],nums[2],nums[3],nums[0],nums[1],nums[2],nums[3]]
-- ans = [1,3,2,1,1,3,2,1]
+Example 3:
+==========
+Input: nums = [1]
+Output: []
+
 """
 
 
 class Solution:
-    def getConcatenation(self, nums: List[int]) -> List[int]:
-        ans = nums + nums
+    def findDuplicates(self, nums: List[int]) -> List[int]:
+        res = set()
+        seen = set()
+        for i in range(len(nums)):
+            if nums[i] in seen:
+                res.add(nums[i])
+            else:
+                seen.add(nums[i])
+        
+        print(res, seen)
 
-        print(ans)
+
+
 
 if __name__ == '__main__':
-   nums = [1,2,1]
-   nums = [1,3,2,1]
+    nums = [4,3,2,7,8,2,3,1]
 
+    nums = [1,1,2]
 
-   Solution().getConcatenation(nums)
+    nums = [1]
+
+    nums = [3,11,8,16,4,15,4,17,14,14,6,6,2,8,3,12,15,20,20,5]
+
+    Solution().findDuplicates(nums)
