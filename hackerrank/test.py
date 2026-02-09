@@ -51,54 +51,43 @@ from typing import List
 
 
 """
-Given an integer array nums of length n where all the integers of nums are in the range [1, n] 
-and each integer appears at most twice, return an array of all the integers that appears twice.
+Given two arrays of strings list1 and list2, find the common strings with the least index sum.
 
-You must write an algorithm that runs in O(n) time and uses only constant auxiliary space, 
-excluding the space needed to store the output
+A common string is a string that appeared in both list1 and list2.
+
+A common string with the least index sum is a common string such that if it appeared at list1[i] and
+ list2[j] then i + j should be the minimum value among all the other common strings.
+
+Return all the common strings with the least index sum. Return the answer in any order.
 
  
 
 Example 1:
 ==========
-Input: nums = [4,3,2,7,8,2,3,1]
-Output: [2,3]
+Input: list1 = ["Shogun","Tapioca Express","Burger King","KFC"], list2 = ["Piatti","The Grill at Torrey 
+Pines","Hungry Hunter Steakhouse","Shogun"]
+Output: ["Shogun"]
+Explanation: The only common string is "Shogun".
+
 
 Example 2:
 ==========
-Input: nums = [1,1,2]
-Output: [1]
-
-Example 3:
-==========
-Input: nums = [1]
-Output: []
+Input: list1 = ["Shogun","Tapioca Express","Burger King","KFC"], list2 = ["KFC","Shogun","Burger King"]
+Output: ["Shogun"]
+Explanation: The common string with the least index sum is "Shogun" with index sum = (0 + 1) = 1.
 
 """
 
 
 class Solution:
-    def findDuplicates(self, nums: List[int]) -> List[int]:
-        res = set()
-        seen = set()
-        for i in range(len(nums)):
-            if nums[i] in seen:
-                res.add(nums[i])
-            else:
-                seen.add(nums[i])
-        
-        print(res, seen)
+    def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
 
+        pass
 
 
 
 if __name__ == '__main__':
-    nums = [4,3,2,7,8,2,3,1]
+    list1 = ["Shogun","Tapioca Express","Burger King","KFC"], 
+    list2 = ["Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"]
 
-    nums = [1,1,2]
-
-    nums = [1]
-
-    nums = [3,11,8,16,4,15,4,17,14,14,6,6,2,8,3,12,15,20,20,5]
-
-    Solution().findDuplicates(nums)
+    Solution().findRestaurant(list1, list2)
