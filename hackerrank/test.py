@@ -79,9 +79,14 @@ Explanation: The common string with the least index sum is "Shogun" with index s
 """
 
 
-class Solution:
-    def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
+# class Solution:
+#     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
 
+#         pass
+
+
+class Solution:
+    def queryResults(self, limit: int, queries: List[List[int]]) -> List[int]:
         pass
 
 
