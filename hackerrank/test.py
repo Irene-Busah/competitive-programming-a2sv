@@ -1,4 +1,5 @@
 from collections import Counter
+from turtle import pos, position
 from typing import List
 
 
@@ -51,48 +52,45 @@ from typing import List
 
 
 """
-Given two arrays of strings list1 and list2, find the common strings with the least index sum.
+You are given a string s and an integer array indices of the same length. The string s will be shuffled 
+such that the character at the ith position moves to indices[i] in the shuffled string.
 
-A common string is a string that appeared in both list1 and list2.
-
-A common string with the least index sum is a common string such that if it appeared at list1[i] and
- list2[j] then i + j should be the minimum value among all the other common strings.
-
-Return all the common strings with the least index sum. Return the answer in any order.
-
- 
+Return the shuffled string.
 
 Example 1:
-==========
-Input: list1 = ["Shogun","Tapioca Express","Burger King","KFC"], list2 = ["Piatti","The Grill at Torrey 
-Pines","Hungry Hunter Steakhouse","Shogun"]
-Output: ["Shogun"]
-Explanation: The only common string is "Shogun".
 
 
+Input: s = "codeleet", indices = [4,5,6,7,0,2,1,3]
+Output: "leetcode"
+Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.
 Example 2:
-==========
-Input: list1 = ["Shogun","Tapioca Express","Burger King","KFC"], list2 = ["KFC","Shogun","Burger King"]
-Output: ["Shogun"]
-Explanation: The common string with the least index sum is "Shogun" with index sum = (0 + 1) = 1.
 
+Input: s = "abc", indices = [0,1,2]
+Output: "abc"
+Explanation: After shuffling, each character remains in its position.
 """
 
 
-# class Solution:
-#     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
-
-#         pass
-
-
 class Solution:
-    def queryResults(self, limit: int, queries: List[List[int]]) -> List[int]:
-        pass
+    def restoreString(self, s: str, indices: List[int]) -> str:
+        newString = list(s)
+
+        for i in range(len(s)):
+            pos = indices[i]
+
+            newString[pos] = s[i]
+        
+        return ''.join(newString)
+
+
 
 
 
 if __name__ == '__main__':
-    list1 = ["Shogun","Tapioca Express","Burger King","KFC"], 
-    list2 = ["Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"]
+    s = "codeleet"
+    indices = [4,5,6,7,0,2,1,3]
 
-    Solution().findRestaurant(list1, list2)
+    s = "abc"
+    indices = [0,1,2]
+
+    print(Solution().restoreString(s, indices))
