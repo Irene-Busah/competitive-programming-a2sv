@@ -27,8 +27,6 @@ For each input case, output:
 """
 
 
-
-from shutil import move
 import sys
 
 
