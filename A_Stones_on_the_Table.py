@@ -13,7 +13,7 @@ Then the i-th character s equals "R", if the i-th stone is red, "G", if it's gre
 and "B", if it's blue.
 
 Output
-Print a single integer — the answer to the problem.
+Print a single integer — the answer to the Weproblem.
 """
 
 
