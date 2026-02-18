@@ -16,8 +16,6 @@ register, otherwise - in the lowercase one.
 """
 
 
-
-from curses.ascii import isupper
 import sys
 
 
