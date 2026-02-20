@@ -46,7 +46,5 @@ for i in range(1, numOfMagnet):
     if magnets[i] != magnets[i-1]:
         group += 1
 
-
-
 print(group)
 
