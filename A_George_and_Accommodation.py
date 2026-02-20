@@ -1,0 +1,50 @@
+"""
+George has recently entered the BSUCP (Berland State University for Cool Programmers). George has a friend Alex who has also entered the university. 
+Now they are moving into a dormitory.
+
+George and Alex want to live in the same room. The dormitory has n rooms in total. At the moment the i-th room has pi people living in it and the 
+room can accommodate qi people in total (pi≤qi). Your task is to count how many rooms has free place for both George and Alex.
+
+Input
+The first line contains a single integer n (1≤n≤100) — the number of rooms.
+
+The i-th of the next n lines contains two integers pi and qi (0≤pi≤qi≤100) — the number of people who already live in the i-th room and the room's capacity.
+
+Output
+Print a single integer — the number of rooms where George and Alex can move in.
+"""
+
+
+
+import sys
+
+
+# defining useful function for input data collection
+def getInt(): return int(sys.stdin.readline().strip())
+def getStr(): return sys.stdin.readline().strip()
+def getIntSeq(): return map(int, sys.stdin.readline().strip().split())
+def getStrSeq(): return sys.stdin.readline().strip().split()
+def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
+def getStrList(): return list(sys.stdin.readline().strip().split())
+
+
+# getting the number of room
+numOfRooms = getInt()
+
+
+rooms = [getIntList() for _ in range(numOfRooms)]
+
+count = 0
+
+for i in range(len(rooms)):
+    occupied, capacity = rooms[i]
+
+    vacancy = capacity - occupied
+
+    if vacancy >= 2:
+        count += 1
+    else:
+        count
+
+print(count)
+
