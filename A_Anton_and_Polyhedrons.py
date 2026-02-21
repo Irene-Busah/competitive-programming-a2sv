@@ -42,3 +42,24 @@ def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
 def getStrList(): return list(sys.stdin.readline().strip().split())
 
 
+# getting the number of test cases
+numOfTestCases = getInt()
+
+totalPolyhedrons = 0
+
+for _ in range(numOfTestCases):
+    polyhedron = getStr().capitalize()
+
+    if polyhedron == 'Tetrahedron':
+        totalPolyhedrons += 4
+    elif polyhedron == 'Cube':
+        totalPolyhedrons += 6
+    elif polyhedron == 'Octahedron':
+        totalPolyhedrons += 8
+    elif polyhedron == 'Dodecahedron':
+        totalPolyhedrons += 12
+    else:
+        totalPolyhedrons += 20
+
+print(totalPolyhedrons)
+
