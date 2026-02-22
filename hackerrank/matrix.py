@@ -14,8 +14,6 @@ Practicing 2D arrays in Competitive Programming
 The interceptor
 """
 
-from operator import le
-from traceback import print_tb
 from typing import List
 
 
@@ -294,41 +292,208 @@ Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
 Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 """
 
-class Solution:
-    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        top, bottom = 0, len(matrix) - 1
-        left, right = 0, len(matrix[0]) - 1
+# class Solution:
+#     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+#         top, bottom = 0, len(matrix) - 1
+#         left, right = 0, len(matrix[0]) - 1
 
-        res = []
+#         res = []
 
-        while top <= bottom and left <= right:
-            for j in range(left, right + 1):
-                res.append(matrix[top][j])
-            top += 1
+#         while top <= bottom and left <= right:
+#             for j in range(left, right + 1):
+#                 res.append(matrix[top][j])
+#             top += 1
 
-            for i in range(top, bottom + 1):
-                res.append(matrix[i][right])
-            right -= 1
+#             for i in range(top, bottom + 1):
+#                 res.append(matrix[i][right])
+#             right -= 1
 
-            # 3) bottom row
-            if top <= bottom:
-                for j in range(right, left - 1, -1):
-                    res.append(matrix[bottom][j])
-                bottom -= 1
+#             # 3) bottom row
+#             if top <= bottom:
+#                 for j in range(right, left - 1, -1):
+#                     res.append(matrix[bottom][j])
+#                 bottom -= 1
 
-            # 4) left col
-            if left <= right:
-                for i in range(bottom, top - 1, -1):
-                    res.append(matrix[i][left])
-                left += 1
+#             # 4) left col
+#             if left <= right:
+#                 for i in range(bottom, top - 1, -1):
+#                     res.append(matrix[i][left])
+#                 left += 1
 
-        return res 
+#         return res 
+
+
+
+
+"""
+There are n gas stations along a circular route, where the amount of gas at the ith station is gas[i].
+
+You have a car with an unlimited gas tank and it costs cost[i] of gas to travel from the ith station to 
+its next (i + 1)th station. You begin the journey with an empty tank at one of the gas stations.
+
+Given two integer arrays gas and cost, return the starting gas station's index if you can travel 
+around the circuit once in the clockwise direction, otherwise return -1. If there exists a solution, 
+it is guaranteed to be unique.
+
+ 
+
+Example 1:
+==========
+Input: gas = [1,2,3,4,5], cost = [3,4,5,1,2]
+Output: 3
+Explanation:
+Start at station 3 (index 3) and fill up with 4 unit of gas. Your tank = 0 + 4 = 4
+Travel to station 4. Your tank = 4 - 1 + 5 = 8
+Travel to station 0. Your tank = 8 - 2 + 1 = 7
+Travel to station 1. Your tank = 7 - 3 + 2 = 6
+Travel to station 2. Your tank = 6 - 4 + 3 = 5
+Travel to station 3. The cost is 5. Your gas is just enough to travel back to station 3.
+Therefore, return 3 as the starting index.
+
+
+Example 2:
+==========
+Input: gas = [2,3,4], cost = [3,4,3]
+Output: -1
+Explanation:
+You can't start at station 0 or 1, as there is not enough gas to travel to the next station.
+Let's start at station 2 and fill up with 4 unit of gas. Your tank = 0 + 4 = 4
+Travel to station 0. Your tank = 4 - 3 + 2 = 3
+Travel to station 1. Your tank = 3 - 3 + 3 = 3
+You cannot travel back to station 2, as it requires 4 unit of gas but you only have 3.
+Therefore, you can't travel around the circuit once no matter where you start.
+"""
+
+
+# class Solution:
+#     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+#         total_tank = 0
+#         current_tank = 0
+#         start = 0
+#         for i in range(len(gas)):
+#             total_tank += gas[i] - cost[i]
+#             current_tank += gas[i] - cost[i]
+#             if current_tank < 0:
+#                 start = i + 1
+#                 current_tank = 0
         
+#         if total_tank < 0:
+#             return -1
+#         else:
+#             return start
+
+
+
+
+"""
+You are given an integer limit and a 2D array queries of size n x 2.
+
+There are limit + 1 balls with distinct labels in the range [0, limit]. Initially, 
+all balls are uncolored. For every query in queries that is of the form [x, y], you mark ball x with the color y. 
+After each query, you need to find the number of colors among the balls.
+
+Return an array result of length n, where result[i] denotes the number of colors after ith query.
+
+Note that when answering a query, lack of a color will not be considered as a color.
+
+ 
+
+Example 1:
+
+Input: limit = 4, queries = [[1,4],[2,5],[1,3],[3,4]]
+
+Output: [1,2,2,3]
+
+Explanation:
+
+
+
+After query 0, ball 1 has color 4.
+After query 1, ball 1 has color 4, and ball 2 has color 5.
+After query 2, ball 1 has color 3, and ball 2 has color 5.
+After query 3, ball 1 has color 3, ball 2 has color 5, and ball 3 has color 4.
+Example 2:
+
+Input: limit = 4, queries = [[0,1],[1,2],[2,2],[3,4],[4,5]]
+
+Output: [1,2,2,3,4]
+"""
+
+
+# class Solution:
+#     def queryResults(self, limit: int, queries: List[List[int]]) -> List[int]:
+#         ballColor = {}  # maps ball -> color
+#         colorCount = {}  # maps color -> count of balls with that color
+#         result = []
+
+#         for x, y in queries:
+#             # If ball x already has a color, remove it from that color's count
+#             if x in ballColor:
+#                 oldColor = ballColor[x]
+#                 colorCount[oldColor] -= 1
+#                 if colorCount[oldColor] == 0:
+#                     del colorCount[oldColor]
+            
+#             # Assign new color to ball x
+#             ballColor[x] = y
+#             colorCount[y] = colorCount.get(y, 0) + 1
+            
+#             # Number of distinct colors = size of colorCount
+#             result.append(len(colorCount))
+        
+        
+
+"""
+Given an m x n matrix mat, return an array of all the elements of the array in a diagonal order.
+
+ 
+
+Example 1:
+
+
+Input: mat = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [1,2,4,7,5,3,6,8,9]
+Example 2:
+
+Input: mat = [[1,2],[3,4]]
+Output: [1,2,3,4]
+"""
+
+
+class Solution:
+    def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
+        if not mat or not mat[0]:
+            return []
+    
+        m, n = len(mat), len(mat[0])
+        result = []
+
+        for d in range(m + n - 1):
+            diagonal = []
+
+            # Start row
+            r = 0 if d < n else d - n + 1
+            c = d if d < n else n - 1
+
+            while r < m and c >= 0:
+                diagonal.append(mat[r][c])
+                r += 1
+                c -= 1
+
+            if d % 2 == 0:
+                result.extend(diagonal[::-1])
+            else:
+                result.extend(diagonal)
+
+        return result
+
+
+
 
 
 
 if __name__ == '__main__':
-    matrix = [[1,2,3],[4,5,6],[7,8,9]]
+    mat = [[1,2,3],[4,5,6],[7,8,9]]
 
 
-    print(Solution().spiralOrder(matrix))
+    print(Solution().findDiagonalOrder(mat))
