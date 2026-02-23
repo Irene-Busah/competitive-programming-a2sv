@@ -39,5 +39,18 @@ def getStrList(): return list(sys.stdin.readline().strip().split())
 
 
 
+guestName = getStr()
+hostName = getStr()
+
+
+pileLetters = getStr()
+
+
+combinedNames = guestName + hostName
+if sorted(pileLetters) == sorted(combinedNames):
+    print("YES")
+else:
+    print("NO")
+
 
 
