@@ -14,9 +14,7 @@ will be recognized as a positive answer).
 """
 
 
-
 import sys
-
 
 # defining useful function for input data collection
 def getInt(): return int(sys.stdin.readline().strip())
