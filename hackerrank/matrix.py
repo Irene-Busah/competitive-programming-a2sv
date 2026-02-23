@@ -460,50 +460,44 @@ Output: [1,2,3,4]
 """
 
 
-class Solution:
-    def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
-        if not mat or not mat[0]:
-            return []
+# class Solution:
+#     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
+#         if not mat or not mat[0]:
+#             return []
     
-        m, n = len(mat), len(mat[0])
-        result = []
+#         m, n = len(mat), len(mat[0])
+#         result = []
 
-        for d in range(m + n - 1):
-            diagonal = []
+#         for d in range(m + n - 1):
+#             diagonal = []
 
-            # Start row
-            r = 0 if d < n else d - n + 1
-            c = d if d < n else n - 1
+#             # Start row
+#             r = 0 if d < n else d - n + 1
+#             c = d if d < n else n - 1
 
-            while r < m and c >= 0:
-                diagonal.append(mat[r][c])
-                r += 1
-                c -= 1
+#             while r < m and c >= 0:
+#                 diagonal.append(mat[r][c])
+#                 r += 1
+#                 c -= 1
 
-            if d % 2 == 0:
-                result.extend(diagonal[::-1])
-            else:
-                result.extend(diagonal)
+#             if d % 2 == 0:
+#                 result.extend(diagonal[::-1])
+#             else:
+#                 result.extend(diagonal)
 
-        return result
-
-
+#         return result
 
 
 
+# if __name__ == '__main__':
+#     mat = [[1,2,3],[4,5,6],[7,8,9]]
 
-if __name__ == '__main__':
-    mat = [[1,2,3],[4,5,6],[7,8,9]]
+
+#     print(Solution().findDiagonalOrder(mat))
 
 
-    print(Solution().findDiagonalOrder(mat))
-import math
-import os
-import random
-import re
-import sys
 
-#
+
 # Complete the 'insertionSort1' function below.
 #
 # The function accepts following parameters:
@@ -512,8 +506,23 @@ import sys
 #
 
 def insertionSort1(n, arr):
-    # Write your code here
-    pass
+    # The last element is the "key" we need to insert into the
+    # sorted subarray arr[0..n-2]. We shift elements to the right
+    # one by one and print the array after each shift. Finally we
+    # place the key in its correct position and print the array one
+    # last time (as required by the problem).
+    
+    key = arr[n-1]
+    i = n - 2
+    # shift elements greater than key to the right
+    while i >= 0 and arr[i] > key:
+        arr[i+1] = arr[i]
+        print(" ".join(str(x) for x in arr))
+        i -= 1
+    # place key in its final spot
+    arr[i+1] = key
+    print(" ".join(str(x) for x in arr))
+    
 
 if __name__ == '__main__':
     n = int(input().strip())
