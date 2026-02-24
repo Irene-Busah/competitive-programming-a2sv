@@ -21,9 +21,6 @@ he could get to the party at midnight or earlier.
 """
 
 
-
-
-
 import sys
 
 

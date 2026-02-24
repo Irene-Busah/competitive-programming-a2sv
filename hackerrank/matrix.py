@@ -548,8 +548,8 @@ Explanation: The first Bob is the tallest, followed by Alice and the second Bob.
 """
 
 
-class Solution:
-    def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
+# class Solution:
+#     def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
         # for i in range(len(heights)):
         #     for j in range(len(heights)-i-1):
         #         if heights[j] < heights[j+1]:
@@ -557,7 +557,9 @@ class Solution:
         #             heights[j], heights[j+1] = heights[j+1], heights[j]
         # print(names)
 
-        pass
+
+
+
     
 
 if __name__ == '__main__':
