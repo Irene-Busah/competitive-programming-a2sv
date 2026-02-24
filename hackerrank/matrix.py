@@ -14,6 +14,7 @@ Practicing 2D arrays in Competitive Programming
 The interceptor
 """
 
+from traceback import print_tb
 from typing import List
 
 
@@ -505,28 +506,65 @@ Output: [1,2,3,4]
 #  2. INTEGER_ARRAY arr
 #
 
-def insertionSort1(n, arr):
-    # The last element is the "key" we need to insert into the
-    # sorted subarray arr[0..n-2]. We shift elements to the right
-    # one by one and print the array after each shift. Finally we
-    # place the key in its correct position and print the array one
-    # last time (as required by the problem).
+# def insertionSort1(n, arr):
+#     # The last element is the "key" we need to insert into the
+#     # sorted subarray arr[0..n-2]. We shift elements to the right
+#     # one by one and print the array after each shift. Finally we
+#     # place the key in its correct position and print the array one
+#     # last time (as required by the problem).
     
-    key = arr[n-1]
-    i = n - 2
-    # shift elements greater than key to the right
-    while i >= 0 and arr[i] > key:
-        arr[i+1] = arr[i]
-        print(" ".join(str(x) for x in arr))
-        i -= 1
-    # place key in its final spot
-    arr[i+1] = key
-    print(" ".join(str(x) for x in arr))
+#     key = arr[n-1]
+#     i = n - 2
+#     # shift elements greater than key to the right
+#     while i >= 0 and arr[i] > key:
+#         arr[i+1] = arr[i]
+#         print(" ".join(str(x) for x in arr))
+#         i -= 1
+#     # place key in its final spot
+#     arr[i+1] = key
+#     print(" ".join(str(x) for x in arr))
+
+
+
+"""
+You are given an array of strings names, and an array heights that consists of distinct positive integers. Both arrays are of length n.
+
+For each index i, names[i] and heights[i] denote the name and height of the ith person.
+
+Return names sorted in descending order by the people's heights.
+
+ 
+
+Example 1:
+
+Input: names = ["Mary","John","Emma"], heights = [180,165,170]
+Output: ["Mary","Emma","John"]
+Explanation: Mary is the tallest, followed by Emma and John.
+Example 2:
+
+Input: names = ["Alice","Bob","Bob"], heights = [155,185,150]
+Output: ["Bob","Alice","Bob"]
+Explanation: The first Bob is the tallest, followed by Alice and the second Bob.
+"""
+
+
+class Solution:
+    def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
+        # for i in range(len(heights)):
+        #     for j in range(len(heights)-i-1):
+        #         if heights[j] < heights[j+1]:
+        #             names[j], names[j+1] = names[j+1], names[j]
+        #             heights[j], heights[j+1] = heights[j+1], heights[j]
+        # print(names)
+
+        pass
     
 
 if __name__ == '__main__':
-    n = int(input().strip())
+    names = ["Mary","John","Emma"]
+    heights = [180,165,170]
 
-    arr = list(map(int, input().rstrip().split()))
+    # names = ["Alice","Bob","Bob"]
+    # heights = [155,185,150]
 
-    insertionSort1(n, arr)
+    Solution().sortPeople(names, heights)
