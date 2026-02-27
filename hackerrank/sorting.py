@@ -35,7 +35,35 @@ Output: 18
 from typing import List
 
 
+# class Solution:
+#     def maxCoins(self, piles: List[int]) -> int:
+#         pass
+
+
+
 class Solution:
-    def maxCoins(self, piles: List[int]) -> int:
-        pass
+    def targetIndices(self, nums: List[int], target: int) -> List[int]:
+
+        # =========== First Approach - bubble sort =========
+        # getting array size
+        arraySize = len(nums)
+
+        res = []
+
+        for i in range(arraySize):
+            for j in range(arraySize-i-1):
+                if nums[j] > nums[j+1]:
+                    nums[j], nums[j+1] = nums[j+1], nums[j]
+
+        for i in range(arraySize):
+            if nums[i] == target:
+                res.append(i)
+        
+        print(res)
+
+if __name__ == '__main__':
+    nums = [1,2,5,2,3]
+    target = 2
+
+    Solution().targetIndices(nums, target)
 
