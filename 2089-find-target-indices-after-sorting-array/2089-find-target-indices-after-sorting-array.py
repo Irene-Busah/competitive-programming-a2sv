@@ -4,10 +4,12 @@ class Solution:
 
         res = []
 
-        for i in range(arraySize):
-            for j in range(arraySize-i-1):
-                if nums[j] > nums[j+1]:
-                    nums[j], nums[j+1] = nums[j+1], nums[j]
+        # for i in range(arraySize):
+        #     for j in range(arraySize-i-1):
+        #         if nums[j] > nums[j+1]:
+        #             nums[j], nums[j+1] = nums[j+1], nums[j]
+
+        nums.sort()
 
         for i in range(arraySize):
             if nums[i] == target:
