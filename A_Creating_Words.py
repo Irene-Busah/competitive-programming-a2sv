@@ -29,3 +29,22 @@ def getStrList(): return list(sys.stdin.readline().strip().split())
 
 
 
+# getting the number of test cases
+numOfTestCases = getInt()
+
+for _ in range(numOfTestCases):
+    firstWord, secondWord = getStrList()
+
+    # ====== First Approach (O(1) - time complexity & O(n) - space complexity)
+    firstWord = list(firstWord)
+    secondWord = list(secondWord)
+
+
+    tmp = firstWord[0]
+    firstWord[0] = secondWord[0]
+    secondWord[0] = tmp
+
+    print("".join(firstWord), "".join(secondWord))
+
+
+
