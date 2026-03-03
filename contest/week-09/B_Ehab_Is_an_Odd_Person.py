@@ -5,33 +5,24 @@ Pick two integers i and j (1≤i,𝑗≤𝑛) such that ai+aj is odd, then swap 
 
 What is lexicographically the smallest array you can obtain?
 
-An array 𝑥
- is lexicographically smaller than an array 𝑦
- if there exists an index 𝑖
- such that 𝑥𝑖<𝑦𝑖
-, and 𝑥𝑗=𝑦𝑗
+An array x is lexicographically smaller than an array y if there exists an index i
+such that 𝑥𝑖<𝑦𝑖, and 𝑥𝑗=𝑦𝑗
  for all 1≤𝑗<𝑖
-. Less formally, at the first index 𝑖
+. Less formally, at the first index i
  in which they differ, 𝑥𝑖<𝑦𝑖
 
 Input
-The first line contains an integer 𝑛
- (1≤𝑛≤105
-) — the number of elements in the array 𝑎
+The first line contains an integer n
+ (1≤n≤105
+) — the number of elements in the array a
 .
 
-The second line contains 𝑛
- space-separated integers 𝑎1
-, 𝑎2
-, …
-, 𝑎𝑛
- (1≤𝑎𝑖≤109
-) — the elements of the array 𝑎
-.
+The second line contains n space-separated integers a1, a2, …, an (1≤ai≤109) — the elements of 
+the array a
+
 
 Output
-The only line contains 𝑛
- space-separated integers, the lexicographically smallest array you can obtain.
+The only line contains n space-separated integers, the lexicographically smallest array you can obtain.
 """
 
 
