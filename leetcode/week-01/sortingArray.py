@@ -33,6 +33,8 @@ The index where nums[i] == 5 is 4.
 
 """
 
+from itertools import count
+import re
 from typing import Counter, List
 
 
@@ -152,17 +154,122 @@ Output: 18
 """
 
 
-class Solution:
-    def maxCoins(self, piles: List[int]) -> int:
-        soted_array = sorted(piles)
+# class Solution:
+#     def maxCoins(self, piles: List[int]) -> int:
+#         soted_array = sorted(piles)
 
-        if len(piles) % 3 != 0:
-            return
+#         if len(piles) % 3 != 0:
+#             return
+
+
+
+
+
+"""
+Given an integer array nums, your goal is to make all elements in nums equal. 
+To complete one operation, follow these steps:
+
+Find the largest value in nums. Let its index be i (0-indexed) and its value be largest. 
+If there are multiple elements with the largest value, pick the smallest i.
+Find the next largest value in nums strictly smaller than largest. Let its value be nextLargest.
+Reduce nums[i] to nextLargest.
+Return the number of operations to make all elements in nums equal.
+ 
+
+Example 1:
+===========
+Input: nums = [5,1,3]
+Output: 3
+Explanation: It takes 3 operations to make all elements in nums equal:
+1. largest = 5 at index 0. nextLargest = 3. Reduce nums[0] to 3. nums = [3,1,3].
+2. largest = 3 at index 0. nextLargest = 1. Reduce nums[0] to 1. nums = [1,1,3].
+3. largest = 3 at index 2. nextLargest = 1. Reduce nums[2] to 1. nums = [1,1,1].
+
+
+Example 2:
+==========
+Input: nums = [1,1,1]
+Output: 0
+Explanation: All elements in nums are already equal.
+Example 3:
+
+Input: nums = [1,1,2,2,3]
+Output: 4
+"""
+
+
+
+# class Solution:
+#     def reductionOperations(self, nums: List[int]) -> int:
+#         # initialize counter
+#         count = 0
+
+#         nums.sort()
+
+#         for i in range(1, len(nums)):
+#             if nums[i] != nums[i-1]:
+#                 count += len(nums) - i
+
+#         print(count)
+
+
+
+
+"""
+Given a string s, sort it in decreasing order based on the frequency of the characters. 
+The frequency of a character is the number of times it appears in the string.
+
+Return the sorted string. If there are multiple answers, return any of them.
+
+ 
+
+Example 1:
+===========
+Input: s = "tree"
+Output: "eert"
+Explanation: 'e' appears twice while 'r' and 't' both appear once.
+So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
+
+Example 2:
+==========
+Input: s = "cccaaa"
+Output: "aaaccc"
+Explanation: Both 'c' and 'a' appear three times, so both "cccaaa" and "aaaccc" are valid answers.
+Note that "cacaca" is incorrect, as the same characters must be together.
+
+Example 3:
+==========
+Input: s = "Aabb"
+Output: "bbAa"
+Explanation: "bbaA" is also a valid answer, but "Aabb" is incorrect.
+Note that 'A' and 'a' are treated as two different characters.
+
+"""
+
+
+class Solution:
+    def frequencySort(self, s: str) -> str:
+        counter = {}
+
+        for i in range(len(s)):
+            if s[i] not in counter:
+                counter[s[i]] = 1
+            else:
+                counter[s[i]] += 1
+        
+        res = [v*k for k, v in sorted(counter.items(), key=lambda x: -x[1])]
+
+        print("".join(res), counter)
+
 
 
 
 if __name__ == '__main__':
-    piles = [2,4,1,2,7,8]
+    s = "tree"
 
-    Solution().maxCoins(piles)
+    # s = "cccaaa"
+
+    # s = "Aabb"
+
+    Solution().frequencySort(s)
 
