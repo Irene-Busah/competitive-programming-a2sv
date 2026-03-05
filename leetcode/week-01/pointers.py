@@ -17,7 +17,7 @@ Output: [0]
 """
 
 
-from typing import List
+from typing import Counter, List
 
 
 # class Solution:
@@ -118,31 +118,81 @@ Explanation: Some possible arrangements for the digits of -7605 are -7650, -6705
 The arrangement with the smallest value that does not contain any leading zeros is -7650.
 """
 
-class Solution:
-    def smallestNumber(self, num: int) -> int:
-        digit_list = [int(d) for d in str(abs(num))]
-        if num > 0:
-            digit_list.sort()
+# class Solution:
+#     def smallestNumber(self, num: int) -> int:
+#         digit_list = [int(d) for d in str(abs(num))]
+#         if num > 0:
+#             digit_list.sort()
 
-            count = 0
-            for i in range(len(digit_list)):
-                if digit_list[i] == 0:
-                    count += 1
+#             count = 0
+#             for i in range(len(digit_list)):
+#                 if digit_list[i] == 0:
+#                     count += 1
             
-            digit_list[0], digit_list[count] = digit_list[count], digit_list[0]
+#             digit_list[0], digit_list[count] = digit_list[count], digit_list[0]
 
-            print(int("".join(str(d) for d in digit_list)))
-        else:
-            digit_list.sort(reverse=True)
-            val = "".join(str(d) for d in digit_list)
+#             print(int("".join(str(d) for d in digit_list)))
+#         else:
+#             digit_list.sort(reverse=True)
+#             val = "".join(str(d) for d in digit_list)
             
-            print(int("-" + val))
+#             print(int("-" + val))
+
+
+
+"""
+Given an integer array nums, return the third distinct maximum number in this array. 
+If the third maximum does not exist, return the maximum number.
+
+ 
+
+Example 1:
+=========
+Input: nums = [3,2,1]
+Output: 1
+Explanation:
+The first distinct maximum is 3.
+The second distinct maximum is 2.
+The third distinct maximum is 1.
+
+Example 2:
+=========
+Input: nums = [1,2]
+Output: 2
+Explanation:
+The first distinct maximum is 2.
+The second distinct maximum is 1.
+The third distinct maximum does not exist, so the maximum (2) is returned instead.
+
+Example 3:
+=========
+Input: nums = [2,2,3,1]
+Output: 1
+Explanation:
+The first distinct maximum is 3.
+The second distinct maximum is 2 (both 2's are counted together since they have the same value).
+The third distinct maximum is 1.
+"""
        
 
+class Solution:
+    def thirdMax(self, nums: List[int]) -> int:
+
+        newArray = list(set(nums))
+
+        newArray.sort(reverse=True)
+
+        if len(nums) >= 3:
+            print(newArray[2], newArray)
+        else:
+            print(max(newArray), newArray)
+        # print(nums)
 
 
 
 if __name__ == '__main__':
-    num = 310
-    num = -7605
-    Solution().smallestNumber(num)
+    nums = [3,2,1]
+    # nums = [1,2]
+
+    # nums = [2,2,3,1]
+    Solution().thirdMax(nums)
