@@ -228,35 +228,87 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 """
 
 
-class Solution:
-    def matchPlayersAndTrainers(self, players: List[int], trainers: List[int]) -> int:
-        # sorting the array
-        players.sort()
-        trainers.sort()
+# class Solution:
+#     def matchPlayersAndTrainers(self, players: List[int], trainers: List[int]) -> int:
+#         # sorting the array
+#         players.sort()
+#         trainers.sort()
 
-        first = 0
-        second = 0
+#         first = 0
+#         second = 0
+
+#         count = 0
+
+        
+#         while first < len(players) and second < len(trainers):
+#             if trainers[second] >= players[first]:
+#                 count += 1
+
+#                 first += 1
+#                 second += 1
+#             else:
+#                 second += 1
+
+#         print(count)
+
+
+
+
+"""
+You are given an integer array nums and an integer k.
+
+In one operation, you can pick two numbers from the array whose sum equals k and 
+remove them from the array.
+
+Return the maximum number of operations you can perform on the array.
+
+
+Example 1:
+==========
+Input: nums = [1,2,3,4], k = 5
+Output: 2
+Explanation: Starting with nums = [1,2,3,4]:
+- Remove numbers 1 and 4, then nums = [2,3]
+- Remove numbers 2 and 3, then nums = []
+There are no more pairs that sum up to 5, hence a total of 2 operations.
+
+
+Example 2:
+=========
+Input: nums = [3,1,3,4,3], k = 6
+Output: 1
+Explanation: Starting with nums = [3,1,3,4,3]:
+- Remove the first two 3's, then nums = [1,4,3]
+There are no more pairs that sum up to 6, hence a total of 1 operation.
+"""
+
+
+class Solution:
+    def maxOperations(self, nums: List[int], k: int) -> int:
+        nums.sort()
+        left = 0
+        right = len(nums)-1
 
         count = 0
 
-        
-        while first < len(players) and second < len(trainers):
-            if trainers[second] >= players[first]:
-                count += 1
+        while left < right:
+            val = nums[left] + nums[right]
 
-                first += 1
-                second += 1
+            if val == k:
+                count += 1
+                left += 1
+                right -= 1
+            elif val < k:
+                left += 1
             else:
-                second += 1
+                right -= 1
+
+            
 
         print(count)
 
-
 if __name__ == '__main__':
-    players = [4,7,9]
-    trainers = [8,2,5,8]
-
-    players = [1,1,1]
-    trainers = [10]
-    Solution().matchPlayersAndTrainers(players, trainers)
+    nums = [1,2,3,4]
+    k = 5
+    Solution().maxOperations(nums, k)
 
