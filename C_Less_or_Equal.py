@@ -32,6 +32,28 @@ def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
 def getStrList(): return list(sys.stdin.readline().strip().split())
 
 
+# getting the data
+n, k = getIntList()
+
+array = getIntList()
+array.sort()
+
+if k == 0:
+    if array[0] == 1:
+        print(-1)
+    else:
+        print(array[0] - 1)
+    
+else:
+    x = array[k - 1]
+    if k == n or x < array[k]:
+        print(x)
+    elif x < array[k]:
+        print(array[k] - 1)
+    else:
+        print(-1)
+
+
 
 
 
