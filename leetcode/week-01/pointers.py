@@ -18,6 +18,7 @@ Output: [0]
 
 
 from itertools import count
+from os import read
 from typing import Counter, List
 
 
@@ -386,33 +387,189 @@ Now, t is a subsequence of s ("zabcde").
 It can be shown that appending any 4 characters to the end of s will never make t a subsequence.
 """
 
+# class Solution:
+#     def appendCharacters(self, s: str, t: str) -> int:
+#         first, second = 0, 0
+
+#         count = 0
+
+#         while first < len(s) and second < len(t):
+#             if s[first] == t[second]:
+#                 first += 1
+#                 second += 1
+#                 count += 1
+#             else:
+#                 first += 1
+#                 # count += 1
+        
+        
+#         print(len(t[count:]))
+
+
+
+
+
+"""
+Given an array of characters chars, compress it using the following algorithm:
+
+Begin with an empty string s. For each group of consecutive repeating characters in chars:
+
+If the group's length is 1, append the character to s.
+Otherwise, append the character followed by the group's length.
+The compressed string s should not be returned separately, but instead, be stored in the input character 
+array chars. Note that group lengths that are 10 or longer will be split into multiple characters in chars.
+
+After you are done modifying the input array, return the new length of the array.
+
+You must write an algorithm that uses only constant extra space.
+
+Note: The characters in the array beyond the returned length do not matter and should be ignored.
+
+ 
+
+Example 1:
+
+Input: chars = ["a","a","b","b","c","c","c"]
+Output: 6
+Explanation: The groups are "aa", "bb", and "ccc". This compresses to "a2b2c3".
+Example 2:
+
+Input: chars = ["a"]
+Output: 1
+Explanation: The only group is "a", which remains uncompressed since it's a single character.
+"""
+
+
+# class Solution:
+#     def compress(self, chars: List[str]) -> int:
+#         write, read = 0, 0
+
+#         while read < len(chars):
+#             char = chars[read]
+#             count = 0
+
+#             while read < len(chars) and chars[read] == char:
+#                 count += 1
+#                 read += 1
+#             chars[write] = char
+#             write += 1
+
+#             if count > 1:
+#                 for digit in str(count):
+#                     chars[write] = digit
+#                     write += 1
+        
+#         print(write)
+
+
+
+"""
+You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, 
+representing the number of elements in nums1 and nums2 respectively.
+
+Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+
+The final sorted array should not be returned by the function, but instead be stored inside the array nums1. 
+To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should 
+be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
+
+ 
+
+Example 1:
+
+Input: nums1 = [1,3,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+Output: [1,2,2,3,5,6]
+Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
+The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
+Example 2:
+
+Input: nums1 = [1], m = 1, nums2 = [], n = 0
+Output: [1]
+Explanation: The arrays we are merging are [1] and [].
+The result of the merge is [1].
+Example 3:
+
+Input: nums1 = [0], m = 0, nums2 = [1], n = 1
+Output: [1]
+Explanation: The arrays we are merging are [] and [1].
+The result of the merge is [1].
+Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
+"""
+
+
+# class Solution:
+#     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+#         """
+#         Do not return anything, modify nums1 in-place instead.
+#         """
+
+#         first, second = m-1, n-1
+#         k = m+n-1
+
+#         while first >= 0 and second >= 0:
+#             if nums1[first] > nums2[second]:
+#                 nums1[k] = nums1[first]
+#                 first -= 1
+#             else:
+
+#                 nums1[k] = nums2[second]
+#                 second -= 1
+#             k -= 1
+
+#         while second >= 0:
+#             nums1[k] = nums2[second]
+#             second -= 1
+#             k -= 1
+
+
+
+"""
+Given a fixed-length integer array arr, duplicate each occurrence of zero, shifting the remaining elements to the right.
+
+Note that elements beyond the length of the original array are not written. Do the above modifications to the input 
+array in place and do not return anything.
+
+ 
+
+Example 1:
+
+Input: arr = [1,0,2,3,0,4,5,0]
+Output: [1,0,0,2,3,0,0,4]
+Explanation: After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4]
+Example 2:
+
+Input: arr = [1,2,3]
+Output: [1,2,3]
+Explanation: After calling your function, the input array is modified to: [1,2,3]
+"""
+
+
 class Solution:
-    def appendCharacters(self, s: str, t: str) -> int:
-        first, second = 0, 0
+    def duplicateZeros(self, arr: List[int]) -> None:
+        """
+        Do not return anything, modify arr in-place instead.
+        """
+        numZeros = arr.count(0)
 
-        count = 0
+        left, right = len(arr) - 1, len(arr) + numZeros - 1
 
-        while first < len(s) and second < len(t):
-            if s[first] == t[second]:
-                first += 1
-                second += 1
-                count += 1
-            else:
-                first += 1
-                # count += 1
-        
-        
-        print(len(t[count:]))
+        while left >= 0:
+            if right < len(arr):
+                arr[right] = arr[left]
+
+            if arr[left] == 0:
+                right -= 1
+                if right < len(arr):
+                    arr[right] = 0
+            
+            left -= 1
+            right -= 1
+
+
+
 
 
 if __name__ == '__main__':
-    s = "coaching" 
-    t = "coding"
-
-    s = "abcde"
-    t = "a"
-
-    s = "z"
-    t = "abcde"
-    Solution().appendCharacters(s, t)
+    arr = [1,0,2,3,0,4,5,0]
+    Solution().duplicateZeros(arr)
 

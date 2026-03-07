@@ -30,8 +30,6 @@ Output
 Print YES, if m is the next prime number after n, or NO otherwise.
 """
 
-
-
 import sys
 
 
@@ -44,4 +42,32 @@ def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
 def getStrList(): return list(sys.stdin.readline().strip().split())
 
 
+def is_prime(x):
+    if x < 2:
+        return True
+    if x == 2:
+        return True
+    if x % 2 == 0:
+        return False
+    
+    i = 3
+    while i * i <= x:
+        if x % i == 0:
+            return False
+        i += 2
+    
+    return True
+
+
+# reading the input data
+n, m = getIntList()   
+
+if not is_prime(n) or not is_prime(m):
+    print("NO")
+else:
+    nxt = n + 1
+    while not is_prime(nxt):
+        nxt += 1
+    
+    print("YES" if nxt == m else "NO")
 
