@@ -8,6 +8,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0015-3sum/) | Medium |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0056-merge-intervals](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0056-merge-intervals/) | Medium |
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0283-move-zeroes](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0283-move-zeroes/) | Easy |
@@ -59,6 +60,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0015-3sum/) | Medium |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0283-move-zeroes](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0283-move-zeroes/) | Easy |
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
