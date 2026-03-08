@@ -13,6 +13,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0283-move-zeroes](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0283-move-zeroes/) | Easy |
 | [0414-third-maximum-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0414-third-maximum-number/) | Easy |
+| [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
 | [1089-duplicate-zeros](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1089-duplicate-zeros/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
@@ -26,6 +27,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0414-third-maximum-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0414-third-maximum-number/) | Easy |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
@@ -64,6 +66,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0283-move-zeroes](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0283-move-zeroes/) | Easy |
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
+| [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [1089-duplicate-zeros](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1089-duplicate-zeros/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
@@ -76,6 +79,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0011-container-with-most-water/) | Medium |
+| [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 <!---LeetCode Topics End-->
