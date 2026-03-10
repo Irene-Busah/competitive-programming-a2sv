@@ -5,7 +5,7 @@ class Solution:
         lengthString = 0
         window = set()
 
-        for right in range(len(s) - 1):
+        for right in range(len(s)):
             # windowSize += s[right]
 
             while s[right] in window:
