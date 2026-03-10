@@ -26,8 +26,6 @@ You have 3 cookies and their sizes are big enough to gratify all of the children
 You need to output 2.
 """
 
-from curses.ascii import isalnum
-from itertools import count
 from typing import List
 
 
@@ -154,26 +152,165 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 """
 
 
+# class Solution:
+#     def isPalindrome(self, s: str) -> bool:
+#         i, j = 0, len(s)-1
+
+#         while i < j:
+#             while i < j and not s[i].isalnum():
+#                 i += 1
+#             while i < j and not s[j].isalnum():
+#                 j -= 1
+
+#             if s[i].lower() != s[j].lower():
+#                 return False
+#             i+=1
+#             j-=1        
+
+#         return True
+
+
+
+
+"""
+You are given an integer array nums consisting of n elements, and an integer k.
+
+Find a contiguous subarray whose length is equal to k that has the maximum average 
+value and return this value. Any answer with a calculation error less than 10-5 will be accepted.
+
+ 
+
+Example 1:
+
+Input: nums = [1,12,-5,-6,50,3], k = 4
+Output: 12.75000
+Explanation: Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75
+Example 2:
+
+Input: nums = [5], k = 1
+Output: 5.00000
+"""
+
+
+# class Solution:
+#     def findMaxAverage(self, nums: List[int], k: int) -> float:
+
+#         windowSum = 0
+#         maxSum = float('-inf')
+#         left = 0
+
+#         for right in range(len(nums)):
+
+#             windowSum += nums[right]
+
+#             if right - left + 1 == k:
+#                 maxSum = max(windowSum, maxSum)
+
+#                 windowSum -= nums[left]
+
+#                 left += 1
+#         print(maxSum/k)
+
+
+
+"""
+Given a string s, find the length of the longest substring without duplicate characters.
+
+ 
+
+Example 1:
+
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also 
+correct answers.
+Example 2:
+
+Input: s = "bbbbb"
+Output: 1
+Explanation: The answer is "b", with the length of 1.
+Example 3:
+
+Input: s = "pwwkew"
+Output: 3
+Explanation: The answer is "wke", with the length of 3.
+Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+"""
+
+
+# class Solution:
+#     def lengthOfLongestSubstring(self, s: str) -> int:
+#         left = 0
+
+#         lengthString = 0
+#         window = set()
+
+#         for right in range(len(s) - 1):
+#             # windowSize += s[right]
+
+#             while s[right] in window:
+#                 window.remove(s[left])
+
+#                 left += 1
+            
+#             window.add(s[right])
+#             lengthString = max(lengthString, right - left + 1)
+        
+#         return lengthString
+
+
+
+"""
+Given an integer array nums of length n and an integer target, find three integers at distinct indices in nums such that the sum is closest to target.
+
+Return the sum of the three integers.
+
+You may assume that each input would have exactly one solution.
+
+ 
+
+Example 1:
+
+Input: nums = [-1,2,1,-4], target = 1
+Output: 2
+Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+Example 2:
+
+Input: nums = [0,0,0], target = 1
+Output: 0
+Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
+
+"""
+
+
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
-        i, j = 0, len(s)-1
+    def threeSumClosest(self, nums: List[int], target: int) -> int:
+        nums.sort()
 
-        while i < j:
-            while i < j and not s[i].isalnum():
-                i += 1
-            while i < j and not s[j].isalnum():
-                j -= 1
+        closest = float('inf')
 
-            if s[i].lower() != s[j].lower():
-                return False
-            i+=1
-            j-=1        
+        for i in range(len(nums)):
+            left = i + 1
+            right = len(nums) - 1
 
-        return True
+            while left < right:
+                currentSum = nums[i] + nums[left] + nums[right]
+
+                if abs(currentSum - target) < abs(closest - target):
+                    closest = currentSum
+
+                if currentSum < target:
+                    left += 1
+                elif currentSum > target:
+                    right -= 1
+                else:
+                    return target
 
 
+        return closest
 
 if __name__  == '__main__':
-    s = "A man, a plan, a canal: Panama"
+    nums = [-1,2,1,-4]
+    target = 1
 
-    Solution().isPalindrome(s)
+    print(Solution().threeSumClosest(nums, target))
