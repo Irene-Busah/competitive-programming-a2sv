@@ -15,6 +15,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0414-third-maximum-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0414-third-maximum-number/) | Easy |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
+| [0643-maximum-average-subarray-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [1089-duplicate-zeros](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1089-duplicate-zeros/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
@@ -91,4 +92,8 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0643-maximum-average-subarray-i/) | Easy |
 <!---LeetCode Topics End-->
