@@ -57,11 +57,25 @@ import sys
 
 # defining useful function for input data collection
 def getInt(): return int(sys.stdin.readline().strip())
-def getStr(): return sys.stdin.readline().strip()
-def getIntSeq(): return map(int, sys.stdin.readline().strip().split())
-def getStrSeq(): return sys.stdin.readline().strip().split()
 def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
-def getStrList(): return list(sys.stdin.readline().strip().split())
+
+"""
+5 3
+18 3 7 2 9
+3 1 1
+
+18 9 7 3 2
+
+18 9 7
+free = 7
+3 2 = 12
+
+18 9 7 3 2 = total cost - 18 - 9 - 2
+
+18
+9
+2
+"""
 
 
 
@@ -89,5 +103,4 @@ for _ in range(numOfTestCases):
             index += x
         
     print(cost)
-
 
