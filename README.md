@@ -8,6 +8,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0015-3sum/) | Medium |
+| [0016-3sum-closest](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0016-3sum-closest/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0056-merge-intervals](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0056-merge-intervals/) | Medium |
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
@@ -25,6 +26,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0015-3sum/) | Medium |
+| [0016-3sum-closest](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0016-3sum-closest/) | Medium |
 | [0056-merge-intervals](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0056-merge-intervals/) | Medium |
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0414-third-maximum-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0414-third-maximum-number/) | Easy |
@@ -68,6 +70,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0015-3sum/) | Medium |
+| [0016-3sum-closest](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0016-3sum-closest/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0125-valid-palindrome](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0125-valid-palindrome/) | Easy |
