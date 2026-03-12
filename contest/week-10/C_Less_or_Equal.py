@@ -38,6 +38,7 @@ n, k = getIntList()
 array = getIntList()
 array.sort()
 
+
 if k == 0:
     if array[0] == 1:
         print(-1)
@@ -52,8 +53,7 @@ else:
         print(array[k] - 1)
     else:
         print(-1)
-
-
-
-
-
+        
+# x = 5
+# x = 5 < 7
+# 3 7 5 1 10 3 20 -> [1, 3, 3, 5, 7, 10, 20]
