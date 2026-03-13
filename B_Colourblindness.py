@@ -38,15 +38,20 @@ numOfTestCases = getInt()
 for _ in range(numOfTestCases):
     cols = getInt()
 
-    colors1 = list(getStr().split())
-    colors2 = list(getStr().split())
+    colors1 = list(getStr())
+    colors2 = list(getStr())
 
 
-    matrix = [colors1, colors2]
+    same = True
 
-    print(matrix)
+    for j in range(cols):
+        if colors1[j] == 'R' and colors2[j] != 'R':
+            same = False
+            break
+
+        if colors2[j] == 'R' and colors1[j] != 'R':
+            same = False
+            break
     
-
-
-
-
+    print("YES" if same else "NO")
+    
