@@ -37,15 +37,15 @@ There is no way to divide the players into teams such that the total skill of ea
 from typing import List
 
 
-# class Solution:
-#     def dividePlayers(self, skill: List[int]) -> int:
-#         skill.sort()
+class Solution:
+    def dividePlayers(self, skill: List[int]) -> int:
+        skill.sort()
 
-#         teamTotal = skill[0] + skill[-1]
-#         chemistrySum = 0
+        teamTotal = skill[0] + skill[-1]
+        chemistrySum = 0
 
-#         for i in range(len(skill) / 2):
-#             pass
+        for i in range(len(skill) / 2):
+            pass
 
 
 
@@ -104,25 +104,25 @@ Explanation: The vowel substrings of word are as follows (underlined):
         
 #         return lengthString
 
-class Solution:
-    def countVowelSubstrings(self, word: str) -> int:
-        vowels = set("aeiou")
-        last_seen = {}
-        left = 0
-        count = 0
+# class Solution:
+#     def countVowelSubstrings(self, word: str) -> int:
+#         vowels = set("aeiou")
+#         last_seen = {}
+#         left = 0
+#         count = 0
 
-        for right, ch in enumerate(word):
-            if ch not in vowels:
-                last_seen.clear()
-                left = right + 1
-                continue
+#         for right, ch in enumerate(word):
+#             if ch not in vowels:
+#                 last_seen.clear()
+#                 left = right + 1
+#                 continue
 
-            last_seen[ch] = right
+#             last_seen[ch] = right
 
-            if len(last_seen) == 5:
-                count += min(last_seen.values()) - left + 1
+#             if len(last_seen) == 5:
+#                 count += min(last_seen.values()) - left + 1
 
-        print(count)
+#         print(count)
 
 
 if __name__ == '__main__':
