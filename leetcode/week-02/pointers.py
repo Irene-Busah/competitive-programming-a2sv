@@ -33,6 +33,7 @@ Explanation:
 There is no way to divide the players into teams such that the total skill of each team is equal.
 """
 
+
 from typing import List
 
 
@@ -83,17 +84,48 @@ Explanation: The vowel substrings of word are as follows (underlined):
 - "cuaieuouac"
 """
 
+# class Solution:
+#     def lengthOfLongestSubstring(self, s: str) -> int:
+#         left = 0
+
+#         lengthString = 0
+#         window = set()
+
+#         for right in range(len(s) - 1):
+#             # windowSize += s[right]
+
+#             while s[right] in window:
+#                 window.remove(s[left])
+
+#                 left += 1
+            
+#             window.add(s[right])
+#             lengthString = max(lengthString, right - left + 1)
+        
+#         return lengthString
+
 class Solution:
     def countVowelSubstrings(self, word: str) -> int:
-        vowels = ['a', 'e', 'i', 'o', 'u']
-            
+        vowels = set("aeiou")
+        last_seen = {}
+        left = 0
+        count = 0
 
+        for right, ch in enumerate(word):
+            if ch not in vowels:
+                last_seen.clear()
+                left = right + 1
+                continue
 
+            last_seen[ch] = right
 
+            if len(last_seen) == 5:
+                count += min(last_seen.values()) - left + 1
 
+        print(count)
 
 
 if __name__ == '__main__':
-    skill = [3,2,5,1,3,4]
-    Solution().dividePlayers(skill)
+    word = "aeiouu"
+    Solution().countVowelSubstrings(word)
 
