@@ -44,6 +44,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0003-longest-substring-without-repeating-characters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -51,6 +52,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0125-valid-palindrome](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0125-valid-palindrome/) | Easy |
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
