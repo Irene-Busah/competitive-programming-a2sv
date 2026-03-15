@@ -57,23 +57,21 @@ numOfTesCases = getInt()
 for _ in range(numOfTesCases):
     n, k = getIntList()
 
-    brandSum = [0]*k
+    brandSum = [0]*(k+1)
 
-    # juicyBoxes = [getIntList() for _ in range(k)]
 
     for i in range(k):
         brand, cost = getIntList()
-
+        brandSum[brand] += cost
 
         for i in range(k):
             brandSum[brand] 
         
         
     
-    brandTotalCost = list(brandSum.values())
-    brandTotalCost.sort(reverse=True)
+    brandSum.sort(reverse=True)
 
-    ans = sum(brandTotalCost[:n])
+    ans = sum(brandSum[:n])
     print(ans)
     # brandTotalCost.sort()
 
