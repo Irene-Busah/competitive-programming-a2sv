@@ -23,7 +23,9 @@ def getStrSeq(): return sys.stdin.readline().strip().split()
 def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
 def getStrList(): return list(sys.stdin.readline().strip().split())
 
+numOfTestCases = getInt()
 
-
-
+for _ in range(numOfTestCases):
+    n = getInt()
+    print(n - 1)
 
