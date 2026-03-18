@@ -25,6 +25,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2491-divide-players-into-teams-of-equal-skill/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Sorting
@@ -54,6 +55,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2491-divide-players-into-teams-of-equal-skill/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -120,6 +122,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0643-maximum-average-subarray-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
