@@ -28,6 +28,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2491-divide-players-into-teams-of-equal-skill/) | Medium |
+| [2537-count-the-number-of-good-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2537-count-the-number-of-good-subarrays/) | Medium |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
@@ -58,6 +59,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2491-divide-players-into-teams-of-equal-skill/) | Medium |
+| [2537-count-the-number-of-good-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2537-count-the-number-of-good-subarrays/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -127,6 +129,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
+| [2537-count-the-number-of-good-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2537-count-the-number-of-good-subarrays/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
