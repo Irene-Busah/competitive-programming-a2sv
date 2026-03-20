@@ -78,6 +78,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0567-permutation-in-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0567-permutation-in-string/) | Medium |
+| [1234-replace-the-substring-for-balanced-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1234-replace-the-substring-for-balanced-string/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2379-minimum-recolors-to-get-k-consecutive-black-blocks/) | Easy |
@@ -142,6 +143,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0643-maximum-average-subarray-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0978-longest-turbulent-subarray](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0978-longest-turbulent-subarray/) | Medium |
+| [1234-replace-the-substring-for-balanced-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1234-replace-the-substring-for-balanced-string/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
