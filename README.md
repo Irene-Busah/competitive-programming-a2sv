@@ -27,6 +27,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
+| [1695-maximum-erasure-value](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1695-maximum-erasure-value/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
@@ -62,6 +63,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
+| [1695-maximum-erasure-value](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1695-maximum-erasure-value/) | Medium |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2491-divide-players-into-teams-of-equal-skill/) | Medium |
@@ -141,6 +143,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
+| [1695-maximum-erasure-value](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1695-maximum-erasure-value/) | Medium |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2379-minimum-recolors-to-get-k-consecutive-black-blocks/) | Easy |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2537-count-the-number-of-good-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2537-count-the-number-of-good-subarrays/) | Medium |
