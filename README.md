@@ -20,6 +20,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0724-find-pivot-index](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0724-find-pivot-index/) | Easy |
+| [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1089-duplicate-zeros](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1089-duplicate-zeros/) | Easy |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
@@ -43,6 +44,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
+| [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2165-smallest-value-of-the-rearranged-number/) | Medium |
@@ -103,6 +105,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [0567-permutation-in-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0567-permutation-in-string/) | Medium |
+| [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
 | [1089-duplicate-zeros](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1089-duplicate-zeros/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
@@ -120,6 +123,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0011-container-with-most-water/) | Medium |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
+| [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Binary Search
