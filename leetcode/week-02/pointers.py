@@ -34,6 +34,7 @@ There is no way to divide the players into teams such that the total skill of ea
 """
 
 
+import math
 from typing import Counter, List
 
 
@@ -261,25 +262,142 @@ Output: 16
 #         print(res)
 
 
-class NumArray:
+# class NumArray:
 
-    def __init__(self, nums: List[int]):
-        self.nums = nums
+#     def __init__(self, nums: List[int]):
+#         self.nums = nums
 
-    def sumRange(self, left: int, right: int) -> int:
-        res = []
+#     def sumRange(self, left: int, right: int) -> int:
+#         res = []
 
-        currSum = 0
-        for i in range(left, right+1):
-            res.append(currSum)
+#         currSum = 0
+#         for i in range(left, right+1):
+#             res.append(currSum)
 
-            currSum += self.nums[i]
+#             currSum += self.nums[i]
 
         
-        return currSum
+#         return currSum
+
+
+# class Solution:
+#     def totalFruit(self, fruits: List[int]) -> int:
+#         left = 0
+#         window = {}
+#         max_fruits = 0
+
+#         for right in range(len(fruits)):
+#             window[fruits[right]] = window.get(fruits[right], 0) + 1
+
+#             while len(window) > 2:
+#                 window[fruits[left]] -= 1
+
+#                 if window[fruits[left]] == 0:
+#                     del window[fruits[left]]
+                
+#                 left += 1
+            
+#             max_fruits = max(max_fruits, right - left + 1)
+        
+#         print(max_fruits)
+
+
+
+# class Solution:
+#     def maximumSubarraySum(self, nums: List[int], k: int) -> int:
+#         left = 0
+#         window = {}
+#         total = 0
+#         count = 0
+
+#         for right in range(len(nums)):
+#             window[nums[right]] = window.get(nums[right], 0) + 1
+#             total += nums[right]
+
+#             if right - left + 1 > k:
+#                 window[nums[left]] -= 1
+
+#                 if window[nums[left]] == 0:
+#                     del window[nums[left]]
+                
+#                 total -= nums[left]
+#                 left += 1
+            
+#             if right - left + 1 == k and len(window) == k:
+#                 count = max(count, total)
+        
+#         return count
+
+
+
+
+# class Solution:
+#     def maxScore(self, cardPoints: List[int], k: int) -> int:
+#         left, right = 0, len(cardPoints)-1
+
+#         max_score = 0
+#         move = 0
+
+#         while left <= right and move < k:
+#             if cardPoints[left] >= cardPoints[right]:
+#                 max_score += cardPoints[left]
+#                 move += 1
+#                 left += 1
+#             else:
+#                 max_score += cardPoints[right]
+#                 move += 1
+#                 right -= 1
+
+            
+#         print(max_score)
+
+
+
+"""
+Given an integer array nums and an integer k, return the number of good subarrays of nums.
+
+A subarray arr is good if there are at least k pairs of indices (i, j) such that i < j and arr[i] == arr[j].
+
+A subarray is a contiguous non-empty sequence of elements within an array.
+
+ 
+
+Example 1:
+
+Input: nums = [1,1,1,1,1], k = 10
+Output: 1
+Explanation: The only good subarray is the array nums itself.
+Example 2:
+
+Input: nums = [3,1,4,3,2,2,4], k = 2
+Output: 4
+Explanation: There are 4 different good subarrays:
+- [3,1,4,3,2,2] that has 2 pairs.
+- [3,1,4,3,2,2,4] that has 3 pairs.
+- [1,4,3,2,2,4] that has 2 pairs.
+- [4,3,2,2,4] that has 2 pairs.
+"""
+
+
+class Solution:
+    def numRescueBoats(self, people: List[int], limit: int) -> int:
+        people.sort()
+
+        left, right = 0, 0
+
+        count = 0
+
+        while left < right:
+            if people[left] + people[right] == limit:
+                count += 1
+            
+
 
 
 if __name__ == '__main__':
-    ["NumArray", "sumRange", "sumRange", "sumRange"]
-    [[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]
+    nums = [1,2,3,4]
+
+    # nums = [3,1,4,3,2,2,4]
+    # k = 2
+    Solution().productExceptSelf(nums)
 
