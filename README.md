@@ -31,6 +31,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
+| [1637-widest-vertical-area-between-two-points-containing-no-points](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1637-widest-vertical-area-between-two-points-containing-no-points/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1695-maximum-erasure-value](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1695-maximum-erasure-value/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
@@ -52,6 +53,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
 | [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
+| [1637-widest-vertical-area-between-two-points-containing-no-points](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1637-widest-vertical-area-between-two-points-containing-no-points/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2165-smallest-value-of-the-rearranged-number/) | Medium |
