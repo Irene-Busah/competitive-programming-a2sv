@@ -30,6 +30,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1480-running-sum-of-1d-array/) | Easy |
+| [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1695-maximum-erasure-value](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1695-maximum-erasure-value/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
@@ -50,6 +51,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
 | [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
+| [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2165-smallest-value-of-the-rearranged-number/) | Medium |
@@ -130,6 +132,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2165-smallest-value-of-the-rearranged-number/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -137,6 +140,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0011-container-with-most-water](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0011-container-with-most-water/) | Medium |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
+| [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 ## Binary Search
@@ -189,4 +193,8 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0986-interval-list-intersections](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0986-interval-list-intersections/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
 <!---LeetCode Topics End-->
