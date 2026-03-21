@@ -84,6 +84,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2379-minimum-recolors-to-get-k-consecutive-black-blocks/) | Easy |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
+| [2730-find-the-longest-semi-repetitive-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2730-find-the-longest-semi-repetitive-substring/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -152,6 +153,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2379-minimum-recolors-to-get-k-consecutive-black-blocks/) | Easy |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2537-count-the-number-of-good-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2537-count-the-number-of-good-subarrays/) | Medium |
+| [2730-find-the-longest-semi-repetitive-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2730-find-the-longest-semi-repetitive-substring/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
