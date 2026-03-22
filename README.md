@@ -26,6 +26,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0978-longest-turbulent-subarray](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0978-longest-turbulent-subarray/) | Medium |
 | [0986-interval-list-intersections](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0986-interval-list-intersections/) | Medium |
+| [0992-subarrays-with-k-different-integers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1089-duplicate-zeros](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1089-duplicate-zeros/) | Easy |
 | [1109-corporate-flight-bookings](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1109-corporate-flight-bookings/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
@@ -72,6 +73,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0567-permutation-in-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0567-permutation-in-string/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0992-subarrays-with-k-different-integers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1695-maximum-erasure-value](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1695-maximum-erasure-value/) | Medium |
@@ -109,6 +111,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0992-subarrays-with-k-different-integers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -166,6 +169,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0643-maximum-average-subarray-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0978-longest-turbulent-subarray](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0978-longest-turbulent-subarray/) | Medium |
+| [0992-subarrays-with-k-different-integers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1234-replace-the-substring-for-balanced-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1234-replace-the-substring-for-balanced-string/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
