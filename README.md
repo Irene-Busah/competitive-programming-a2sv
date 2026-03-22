@@ -66,6 +66,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0076-minimum-window-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0076-minimum-window-substring/) | Hard |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
@@ -83,6 +84,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0076-minimum-window-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0076-minimum-window-substring/) | Hard |
 | [0125-valid-palindrome](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0125-valid-palindrome/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
@@ -158,6 +160,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0076-minimum-window-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0076-minimum-window-substring/) | Hard |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0567-permutation-in-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0567-permutation-in-string/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0643-maximum-average-subarray-i/) | Easy |
