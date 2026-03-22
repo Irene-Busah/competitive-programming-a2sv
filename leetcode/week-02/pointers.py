@@ -380,24 +380,38 @@ Explanation: There are 4 different good subarrays:
 
 
 class Solution:
-    def numRescueBoats(self, people: List[int], limit: int) -> int:
-        people.sort()
+    def maximumUniqueSubarray(self, nums: List[int]) -> int:
+        cummulativeSize = 0
 
         left, right = 0, 0
 
-        count = 0
+        while right < len(nums):
+            if nums[left] == nums[right]:
+                left += 1
+                right += 1
+            else:
+                cummulativeSize += nums[left]
+                cummulativeSize += nums[right]
+                left += 1
+                right += 1
 
-        while left < right:
-            if people[left] + people[right] == limit:
-                count += 1
+            
+        return cummulativeSize
+
+        # nums = [4,2,4,5,6]
+
+        # unique_mapper = {}
+
+        # for i in range(len(nums)):
+        #     if nums[i] not in unique_mapper:
+        #         unique_mapper[i] = nums[i]
+        #     else:
+
             
 
 
 
 if __name__ == '__main__':
-    nums = [1,2,3,4]
-
-    # nums = [3,1,4,3,2,2,4]
-    # k = 2
-    Solution().productExceptSelf(nums)
+    nums = [4,2,4,5,6]
+    print(Solution().maximumUniqueSubarray(nums))
 
