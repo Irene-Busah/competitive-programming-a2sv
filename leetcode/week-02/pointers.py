@@ -34,6 +34,7 @@ There is no way to divide the players into teams such that the total skill of ea
 """
 
 
+from ast import LtE
 import math
 from typing import Counter, List
 
@@ -379,24 +380,24 @@ Explanation: There are 4 different good subarrays:
 """
 
 
-class Solution:
-    def maximumUniqueSubarray(self, nums: List[int]) -> int:
-        cummulativeSize = 0
+# class Solution:
+#     def maximumUniqueSubarray(self, nums: List[int]) -> int:
+#         cummulativeSize = 0
 
-        left, right = 0, 0
+#         left, right = 0, 0
 
-        while right < len(nums):
-            if nums[left] == nums[right]:
-                left += 1
-                right += 1
-            else:
-                cummulativeSize += nums[left]
-                cummulativeSize += nums[right]
-                left += 1
-                right += 1
+#         while right < len(nums):
+#             if nums[left] == nums[right]:
+#                 left += 1
+#                 right += 1
+#             else:
+#                 cummulativeSize += nums[left]
+#                 cummulativeSize += nums[right]
+#                 left += 1
+#                 right += 1
 
             
-        return cummulativeSize
+#         return cummulativeSize
 
         # nums = [4,2,4,5,6]
 
@@ -407,8 +408,81 @@ class Solution:
         #         unique_mapper[i] = nums[i]
         #     else:
 
-            
 
+
+# class Solution:
+#     def corpFlightBookings(self, bookings: List[List[int]], n: int) -> List[int]:
+#         res = [0] * n
+
+#         for first, last, seats in bookings:
+#             res[first-1] += seats
+
+#             if last < n:
+#                 res[last] -= seats
+        
+#         for i in range(1, n):
+#             res[i] += res[i-1]
+        
+#         return res
+
+
+# class Solution:
+#     def minOperations(self, nums: List[int]) -> int: 
+#         n = len(nums)     
+#         nums = sorted(set(nums))
+
+#         maxWindow = 0
+#         left = 0
+
+#         for right in range(len(nums)):
+#             while nums[right] - nums[left] > n - 1:
+#                 left += 1
+            
+#             maxWindow = max(maxWindow, right - left + 1)
+        
+#         return n - maxWindow
+
+
+class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+        if not t or not s:
+            return ""
+
+        need = Counter(t)
+        window = {}
+
+        have = 0
+        need_count = len(need)
+
+        res = [-1, -1]
+        res_len = float("inf")
+
+        left = 0
+
+        for right in range(len(s)):
+            char = s[right]
+            window[char] = window.get(char, 0) + 1
+
+            if char in need and window[char] == need[char]:
+                have += 1
+
+            # shrink window
+            while have == need_count:
+                # update result
+                if (right - left + 1) < res_len:
+                    res = [left, right]
+                    res_len = right - left + 1
+
+                # pop from left
+                window[s[left]] -= 1
+
+                if s[left] in need and window[s[left]] < need[s[left]]:
+                    have -= 1
+
+                left += 1
+
+        l, r = res
+        return s[l:r+1] if res_len != float("inf") else ""
 
 
 if __name__ == '__main__':
