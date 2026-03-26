@@ -48,33 +48,83 @@ from typing import List
 Given a string s, find the length of the longest substring without duplicate characters.
 """
 
-class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
+# class Solution:
+#     def lengthOfLongestSubstring(self, s: str) -> int:
 
-        res = 0
-        window = set()
+#         res = 0
+#         window = set()
 
-        left = 0
+#         left = 0
 
-        for right in range(len(s)):
-            
+#         for right in range(len(s)):     
 
-            while s[right] in window:
-                window.remove(s[left])
+#             while s[right] in window:
+#                 window.remove(s[left])
                 
-                left += 1
-            window.add(s[right])
-            res = max(res, right - left + 1)
-        
-        return res
+#                 left += 1
+#             window.add(s[right])
+#             res = max(res, right - left + 1)
+
+#         return res
+
+
+
+"""
+Given an array of n integers ai. Let's say that the segment of this array a[l..r] (1≤l≤r≤n) is good if the sum of elements
+on this segment is at most S. Your task is to find the longest good segment.
+
+Input
+=====
+The first line contains integers n and s (1≤n≤105, 1≤s≤1018). The second line contains integers ai (1<=aii≤109).
+
+Output
+======
+Print one integer, the length of the longest good segment. If there are no such segments, print 0.
+"""
+
+
+import sys
+
+
+# defining useful function for input data collection
+def getInt(): return int(sys.stdin.readline().strip())
+def getStr(): return sys.stdin.readline().strip()
+def getIntSeq(): return map(int, sys.stdin.readline().strip().split())
+def getStrSeq(): return sys.stdin.readline().strip().split()
+def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
+def getStrList(): return list(sys.stdin.readline().strip().split())
+
+
+# getting the input data
+n, s = getIntList()
+
+array = getIntList()
+
+currSum = 0
+
+left = 0
+
+window = 0
+
+for right in range(n):
+    currSum += array[right]
+
+    while currSum > s:
+        currSum -= array[left]
+        left += 1
+    
+    window = max(window, right - left + 1)
+
+print(window)
 
 
 
 
 
-if __name__ == '__main__':
-    s = "abcabcbb"
 
-    print(Solution().lengthOfLongestSubstring(s))
+# if __name__ == '__main__':
+#     s = "abcabcbb"
+
+#     print(Solution().lengthOfLongestSubstring(s))
 
 
