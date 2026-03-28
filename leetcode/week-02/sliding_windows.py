@@ -83,40 +83,71 @@ Print one integer, the length of the longest good segment. If there are no such 
 """
 
 
-import sys
+# import sys
 
 
-# defining useful function for input data collection
-def getInt(): return int(sys.stdin.readline().strip())
-def getStr(): return sys.stdin.readline().strip()
-def getIntSeq(): return map(int, sys.stdin.readline().strip().split())
-def getStrSeq(): return sys.stdin.readline().strip().split()
-def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
-def getStrList(): return list(sys.stdin.readline().strip().split())
+# # defining useful function for input data collection
+# def getInt(): return int(sys.stdin.readline().strip())
+# def getStr(): return sys.stdin.readline().strip()
+# def getIntSeq(): return map(int, sys.stdin.readline().strip().split())
+# def getStrSeq(): return sys.stdin.readline().strip().split()
+# def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
+# def getStrList(): return list(sys.stdin.readline().strip().split())
 
 
-# getting the input data
-n, s = getIntList()
+# # getting the input data
+# n, s = getIntList()
 
-array = getIntList()
+# array = getIntList()
 
-currSum = 0
+# currSum = 0
 
-left = 0
+# left = 0
 
-window = 0
+# window = 0
 
-for right in range(n):
-    currSum += array[right]
+# for right in range(n):
+#     currSum += array[right]
 
-    while currSum > s:
-        currSum -= array[left]
-        left += 1
+#     while currSum > s:
+#         currSum -= array[left]
+#         left += 1
     
-    window = max(window, right - left + 1)
+#     window = max(window, right - left + 1)
 
-print(window)
+# print(window)
 
+
+
+"""
+Given an array nums of n integers, return an array of all the unique quadruplets 
+[nums[a], nums[b], nums[c], nums[d]] such that:
+
+0 <= a, b, c, d < n
+a, b, c, and d are distinct.
+nums[a] + nums[b] + nums[c] + nums[d] == target
+You may return the answer in any order.
+
+Example 1:
+
+Input: nums = [1,0,-1,0,-2,2], target = 0
+Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+Example 2:
+
+Input: nums = [2,2,2,2,2], target = 8
+Output: [[2,2,2,2]]
+"""
+
+
+
+class Solution:
+    def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
+        ans = []
+
+        left, right = 0, 0
+
+        while right < len(nums):
+            pass
 
 
 
