@@ -11,6 +11,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0016-3sum-closest](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0018-4sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0027-remove-element](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0027-remove-element/) | Easy |
 | [0056-merge-intervals](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0056-merge-intervals/) | Medium |
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
@@ -123,6 +124,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0016-3sum-closest](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0018-4sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0027-remove-element](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0027-remove-element/) | Easy |
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0125-valid-palindrome](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0125-valid-palindrome/) | Easy |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
