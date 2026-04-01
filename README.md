@@ -130,6 +130,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0125-valid-palindrome](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0125-valid-palindrome/) | Easy |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0283-move-zeroes/) | Easy |
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
@@ -231,6 +232,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0092-reverse-linked-list-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0092-reverse-linked-list-ii/) | Medium |
 | [0203-remove-linked-list-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0203-remove-linked-list-elements/) | Easy |
 | [0206-reverse-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0707-design-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0707-design-linked-list/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
@@ -238,4 +240,9 @@ A personal repository for tracking my competitive programming practice and progr
 | [0021-merge-two-sorted-lists](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0203-remove-linked-list-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0203-remove-linked-list-elements/) | Easy |
 | [0206-reverse-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
 <!---LeetCode Topics End-->
