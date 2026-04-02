@@ -33,6 +33,7 @@ myLinkedList.deleteAtIndex(1);    // now the linked list is 1->3
 myLinkedList.get(1);              // return 3
 """
 
+from ast import List
 from typing import Optional
 
 
@@ -138,16 +139,16 @@ the reversed list.
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        previousNode = None
-        currentNode = head
-        while currentNode != None:
-            nextItem = currentNode.next
-            currentNode.next = previousNode
-            previousNode = currentNode
-            currentNode = nextItem
-        return previousNode
+# class Solution:
+#     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+#         previousNode = None
+#         currentNode = head
+#         while currentNode != None:
+#             nextItem = currentNode.next
+#             currentNode.next = previousNode
+#             previousNode = currentNode
+#             currentNode = nextItem
+#         return previousNode
 
 
 """
@@ -166,27 +167,27 @@ Return the head of the merged linked list.
 #         self.next = next
 
 
-class Solution:
-    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        dummy = ListNode(0)
-        tail = dummy
+# class Solution:
+#     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+#         dummy = ListNode(0)
+#         tail = dummy
 
-        while list1 and list2:
-            if list1.val < list2.val:
-                tail.next = list1
-                list1 = list1.next
-            else:
-                tail.next = list2
-                list2 = list2.next
+#         while list1 and list2:
+#             if list1.val < list2.val:
+#                 tail.next = list1
+#                 list1 = list1.next
+#             else:
+#                 tail.next = list2
+#                 list2 = list2.next
             
-            tail = tail.next
+#             tail = tail.next
         
-        if list1:
-            tail.next = list1
-        if list2:
-            tail.next = list2
+#         if list1:
+#             tail.next = list1
+#         if list2:
+#             tail.next = list2
 
-        return dummy.next
+#         return dummy.next
     
 
 # SinglyLinkedListNode:
@@ -195,18 +196,51 @@ class Solution:
 #
 #
 
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 
-def printLinkedList(head):
-    current = head
+# def printLinkedList(head):
+#     current = head
 
-    while current:
-        print(current.data)
-        current.next
+#     while current:
+#         print(current.data)
+#         current.next
 
+
+
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
+        if head.next == None:
+            return head
+        
+        dummy = ListNode(0)
+        dummy.next = head
+        previousNode = dummy
+
+        for i in range(1, left):
+            previousNode = previousNode.next
+
+        current = previousNode.next
+        then = current.next
+
+        for i in range(right-left):
+            current.next = then.next
+            then.next = previousNode.next
+            previousNode.next = then
+
+            then = current.next
+        
+        return dummy.next
+
+
+
+        
 
 
 
