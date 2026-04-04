@@ -214,34 +214,120 @@ Return the head of the merged linked list.
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:
-    def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
-        if head.next == None:
-            return head
+# class Solution:
+#     def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
+#         if head.next == None:
+#             return head
         
-        dummy = ListNode(0)
-        dummy.next = head
-        previousNode = dummy
+#         dummy = ListNode(0)
+#         dummy.next = head
+#         previousNode = dummy
 
-        for i in range(1, left):
-            previousNode = previousNode.next
+#         for i in range(1, left):
+#             previousNode = previousNode.next
 
-        current = previousNode.next
-        then = current.next
+#         current = previousNode.next
+#         then = current.next
 
-        for i in range(right-left):
-            current.next = then.next
-            then.next = previousNode.next
-            previousNode.next = then
+#         for i in range(right-left):
+#             current.next = then.next
+#             then.next = previousNode.next
+#             previousNode.next = then
 
-            then = current.next
+#             then = current.next
         
-        return dummy.next
+#         return dummy.next
+
+
+
+
+"""
+Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or 
+equal to x.
+
+You should preserve the original relative order of the nodes in each of the two partitions.
+"""
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+# class Solution:
+#     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
+#         before_node = ListNode(0)
+#         after_node = ListNode(0)
+
+#         before = before_node
+#         after = after_node
+
+#         current = head
+
+#         while current:
+#             if current.val < x:
+#                 before.next = current
+#                 before = before.next
+#             else:
+#                 after.next = current
+#                 after = after.next
+#             current = current.next 
+        
+#         after.next = None
+#         before.next = after_node.next
+
+#         return before_node.next
+
+
+
+
+
+
+"""
+Given the head of a linked list, rotate the list to the right by k places.
+
+Example 1:
+
+Input: head = [1,2,3,4,5], k = 2
+Output: [4,5,1,2,3]
+"""
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+# class Solution:
+#     def deleteDuplicates(self, head: ListNode) -> Optional[ListNode]:
+#         """
+#         head = [1, 1, 1, 2]
+#                 l        r  
+
+#         [1,1,2,2,2,3,3]
+
+#         output = [1, 2]
+#         """
+
+#         current = head
+
+#         while current and current.next:
+#             if current.val == current.next.val:
+#                 current.next = current.next.next
+#             else:
+#                 current = current.next
+
+#         print(head)
+
+
 
 
 
         
 
-
+# if __name__ == '__main__':
+#     head = [1, 1, 1, 2]
+#     Solution().deleteDuplicates(head=head)
 
 
