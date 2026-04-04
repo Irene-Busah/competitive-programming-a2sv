@@ -40,5 +40,43 @@ In the second line of the output print one string 𝑡
 """
 
 
+import sys
+
+
+# defining useful function for input data collection
+def getInt(): return int(sys.stdin.readline().strip())
+def getStr(): return sys.stdin.readline().strip()
+def getIntSeq(): return map(int, sys.stdin.readline().strip().split())
+def getStrSeq(): return sys.stdin.readline().strip().split()
+def getIntList(): return list(map(int, sys.stdin.readline().strip().split()))
+def getStrList(): return list(sys.stdin.readline().strip().split())
+
+numOfLambs = getInt()
+
+colors = getStr()
+
+
+patterns = ["RGB", "RBG", "GRB", "GBR", "BRG", "BGR"]
+
+best_changes = numOfLambs
+best_string = ""
+
+for p in patterns:
+    changes = 0
+    t = []
+    
+    for i in range(numOfLambs):
+        expected = p[i % 3]
+        t.append(expected)
+        if colors[i] != expected:
+            changes += 1
+    
+    if changes < best_changes:
+        best_changes = changes
+        best_string = "".join(t)
+
+print(best_changes)
+print(best_string)
+
 
 
