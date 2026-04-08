@@ -222,6 +222,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0303-range-sum-query-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0707-design-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0707-design-linked-list/) | Medium |
+| [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -278,4 +279,12 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
 <!---LeetCode Topics End-->
