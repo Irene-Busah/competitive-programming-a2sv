@@ -321,10 +321,114 @@ Output: [4,5,1,2,3]
 #         print(head)
 
 
+"""
+Given the head of a singly linked list and an integer k, split the linked list into k consecutive 
+linked list parts.
+
+The length of each part should be as equal as possible: no two parts should have a size differing 
+by more than one. This may lead to some parts being null.
+
+The parts should be in the order of occurrence in the input list, and parts occurring earlier 
+should always have a size greater than or equal to parts occurring later.
+
+Return an array of the k parts.
+
+ 
+
+Example 1:
 
 
+Input: head = [1,2,3], k = 5
+Output: [[1],[2],[3],[],[]]
+Explanation:
+The first element output[0] has output[0].val = 1, output[0].next = null.
+The last element output[4] is null, but its string representation as a ListNode is [].
+"""
 
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+
+# class Solution:
+#     def splitListToParts(self, head: Optional[ListNode], k: int) -> List[Optional[ListNode]]:
+#         # Count length
+#         length = 0
+#         curr = head
+#         while curr:
+#             length += 1
+#             curr = curr.next
         
+#         # Determine part sizes
+#         part_size = length // k
+#         extra = length % k
+        
+#         result = []
+#         curr = head
+        
+#         for i in range(k):
+#             part_head = curr
+#             size = part_size + (1 if extra > 0 else 0)
+#             if extra > 0:
+#                 extra -= 1
+            
+#             # advance to the end of the current part
+#             for j in range(size - 1):
+#                 if curr:
+#                     curr = curr.next
+            
+#             # cut the list
+#             if curr:
+#                 next_part = curr.next
+#                 curr.next = None
+#                 curr = next_part
+            
+#             result.append(part_head)
+        
+#         return result
+        
+
+"""
+Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem 
+without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
+
+ 
+
+Example 1:
+
+Input: head = [1,2,3,4]
+
+Output: [2,1,4,3]
+"""
+
+
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
+
+        dummy = ListNode(0)
+        dummy.next = head
+        prev = dummy
+
+        while prev.next and prev.next.next:
+            first = prev.next
+            second = prev.next.next
+
+            # swap
+            prev.next = second
+            first.next = second.next
+            second.next = first
+
+            # move prev to the end of the swapped pair
+            prev = first
+
+        return dummy.next
 
 # if __name__ == '__main__':
 #     head = [1, 1, 1, 2]
