@@ -158,6 +158,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0986-interval-list-intersections](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0986-interval-list-intersections/) | Medium |
 | [1089-duplicate-zeros](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1089-duplicate-zeros/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2491-divide-players-into-teams-of-equal-skill/) | Medium |
@@ -265,6 +266,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0707-design-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0707-design-linked-list/) | Medium |
 | [0725-split-linked-list-in-parts](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0725-split-linked-list-in-parts/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -282,6 +284,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
 | [1598-crawler-log-folder](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1598-crawler-log-folder/) | Easy |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
