@@ -35,6 +35,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1480-running-sum-of-1d-array/) | Easy |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
+| [1598-crawler-log-folder](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1598-crawler-log-folder/) | Easy |
 | [1637-widest-vertical-area-between-two-points-containing-no-points](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1637-widest-vertical-area-between-two-points-containing-no-points/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1695-maximum-erasure-value](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1695-maximum-erasure-value/) | Medium |
@@ -104,6 +105,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0680-valid-palindrome-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [1234-replace-the-substring-for-balanced-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1234-replace-the-substring-for-balanced-string/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
+| [1598-crawler-log-folder](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1598-crawler-log-folder/) | Easy |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2379-minimum-recolors-to-get-k-consecutive-black-blocks/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
@@ -266,6 +268,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
+| [1598-crawler-log-folder](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1598-crawler-log-folder/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
