@@ -263,6 +263,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0206-reverse-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0707-design-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0707-design-linked-list/) | Medium |
+| [0725-split-linked-list-in-parts](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0725-split-linked-list-in-parts/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
