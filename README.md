@@ -43,6 +43,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2009-minimum-number-of-operations-to-make-array-continuous/) | Hard |
+| [2073-time-needed-to-buy-tickets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2491-divide-players-into-teams-of-equal-skill/) | Medium |
@@ -284,11 +285,13 @@ A personal repository for tracking my competitive programming practice and progr
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2073-time-needed-to-buy-tickets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
+| [2073-time-needed-to-buy-tickets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2526-find-consecutive-integers-from-a-data-stream/) | Medium |
 ## Data Stream
 | Problem Name | Difficulty |
