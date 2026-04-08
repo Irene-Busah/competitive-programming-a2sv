@@ -20,6 +20,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0304-range-sum-query-2d-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0414-third-maximum-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0414-third-maximum-number/) | Easy |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
+| [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0643-maximum-average-subarray-i/) | Easy |
@@ -79,6 +80,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0146-lru-cache](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0146-lru-cache/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0567-permutation-in-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0567-permutation-in-string/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
@@ -272,6 +274,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [1598-crawler-log-folder](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1598-crawler-log-folder/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Doubly-Linked List
@@ -292,4 +295,8 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2526-find-consecutive-integers-from-a-data-stream/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 <!---LeetCode Topics End-->
