@@ -106,6 +106,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2379-minimum-recolors-to-get-k-consecutive-black-blocks/) | Easy |
+| [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2730-find-the-longest-semi-repetitive-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2730-find-the-longest-semi-repetitive-substring/) | Medium |
 ## Heap (Priority Queue)
@@ -265,8 +266,13 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
+| [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0146-lru-cache/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
 <!---LeetCode Topics End-->
