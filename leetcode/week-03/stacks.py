@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Deque
 
 
 """
@@ -67,19 +67,257 @@ folder operations.
 
 Example 1:
 
-
-
 Input: logs = ["d1/","d2/","../","d21/","./"]
 Output: 2
 Explanation: Use this change folder operation "../" 2 times and go back to the main folder.
 """
 
-class Solution:
-    def minOperations(self, logs: List[str]) -> int:
-        pass
+# class Solution:
+#     def minOperations(self, logs: List[str]) -> int:
+#         stack = []
+
+#         operations = ['../', './']
+
+#         for i in range(len(logs)):
+#             if logs[i] not in operations:
+#                 stack.append(logs[i])
+            
+#             elif logs[i] == '../' and len(stack) > 0:
+#                 stack.pop()
+#         print(len(stack))
+
+
+
+"""
+You have a RecentCounter class which counts the number of recent requests within a certain time frame.
+
+Implement the RecentCounter class:
+
+RecentCounter() Initializes the counter with zero recent requests.
+int ping(int t) Adds a new request at time t, where t represents some time in milliseconds, and 
+returns the number of requests that has happened in the past 3000 milliseconds (including the new 
+request). Specifically, return the number of requests that have happened in the inclusive range
+[t - 3000, t].
+It is guaranteed that every call to ping uses a strictly larger value of t than the previous call.
+
+Example 1:
+
+Input
+["RecentCounter", "ping", "ping", "ping", "ping"]
+[[], [1], [100], [3001], [3002]]
+Output
+[null, 1, 2, 3, 3]
+
+Explanation
+RecentCounter recentCounter = new RecentCounter();
+recentCounter.ping(1);     // requests = [1], range is [-2999,1], return 1
+recentCounter.ping(100);   // requests = [1, 100], range is [-2900,100], return 2
+recentCounter.ping(3001);  // requests = [1, 100, 3001], range is [1,3001], return 3
+recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002], range is [2,3002], return 3
+"""
+
+# class RecentCounter:
+
+#     def __init__(self):
+#         self.queue = Deque()
+
+#     def ping(self, t: int) -> int:
+#         # adding a new request
+#         self.queue.append(t)
+
+#         # removing the older requests
+#         while self.queue[0] < t - 3000:
+#             self.queue.popleft()
+
+#         return len(self.queue)
+# Your RecentCounter object will be instantiated and called as such:
+# obj = RecentCounter()
+# param_1 = obj.ping(t)
+
+
+
+"""
+For a stream of integers, implement a data structure that checks if the last k integers parsed in the stream are equal to value.
+
+Implement the DataStream class:
+
+DataStream(int value, int k) Initializes the object with an empty integer stream and the two integers value and k.
+boolean consec(int num) Adds num to the stream of integers. Returns true if the last k integers are equal to value, and 
+false otherwise. If there are less than k integers, the condition does not hold true, so returns false.
+ 
+
+Example 1:
+
+Input
+["DataStream", "consec", "consec", "consec", "consec"]
+[[4, 3], [4], [4], [4], [3]]
+Output
+[null, false, false, true, false]
+
+Explanation
+DataStream dataStream = new DataStream(4, 3); //value = 4, k = 3 
+dataStream.consec(4); // Only 1 integer is parsed, so returns False. 
+dataStream.consec(4); // Only 2 integers are parsed.
+                      // Since 2 is less than k, returns False. 
+dataStream.consec(4); // The 3 integers parsed are all equal to value, so returns True. 
+dataStream.consec(3); // The last k integers parsed in the stream are [4,4,3].
+                      // Since 3 is not equal to value, it returns False.
+"""
+
+
+# class DataStream:
+
+#     def __init__(self, value: int, k: int):
+#         self.value = value
+#         self.k = k
+#         self.count = 0
+
+#     def consec(self, num: int) -> bool:
+#         if num == self.value:
+#             self.count += 1
+#         else:
+#             self.count = 0
+        
+#         return self.count >= self.k
+
+
+"""
+The next greater element of some element x in an array is the first greater element that is to the right of x in the same array.
+
+You are given two distinct 0-indexed integer arrays nums1 and nums2, where nums1 is a subset of nums2.
+
+For each 0 <= i < nums1.length, find the index j such that nums1[i] == nums2[j] and determine the next greater element of nums2[j] 
+in nums2. If there is no next greater element, then the answer for this query is -1.
+
+Return an array ans of length nums1.length such that ans[i] is the next greater element as described above.
+
+ 
+
+Example 1:
+
+Input: nums1 = [4,1,2], nums2 = [1,3,4,2]
+Output: [-1,3,-1]
+Explanation: The next greater element for each value of nums1 is as follows:
+- 4 is underlined in nums2 = [1,3,4,2]. There is no next greater element, so the answer is -1.
+- 1 is underlined in nums2 = [1,3,4,2]. The next greater element is 3.
+- 2 is underlined in nums2 = [1,3,4,2]. There is no next greater element, so the answer is -1.
+"""
+
+# class Solution:
+#     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+#         next_greater = {}
+#         stack = []
+
+#         # Compute next greater for each number in nums2
+#         for num in nums2:
+#             while stack and num > stack[-1]:
+#                 prev = stack.pop()
+#                 next_greater[prev] = num
+#             stack.append(num)
+
+#         # For elements that have no next greater
+#         while stack:
+#             prev = stack.pop()
+#             next_greater[prev] = -1
+
+#         # Build result for nums1
+#         return [next_greater[num] for num in nums1]
+
+
+
+"""
+There are n people in a line queuing to buy tickets, where the 0th person is at the front of the 
+line and the (n - 1)th person is at the back of the line.
+
+You are given a 0-indexed integer array tickets of length n where the number of tickets that the 
+ith person would like to buy is tickets[i].
+
+Each person takes exactly 1 second to buy a ticket. A person can only buy 1 ticket at a time 
+and has to go back to the end of the line (which happens instantaneously) in order to buy more 
+tickets. If a person does not have any tickets left to buy, the person will leave the line.
+
+Return the time taken for the person initially at position k (0-indexed) to finish buying tickets.
+
+Example 1:
+
+Input: tickets = [2,3,2], k = 2
+
+Output: 6
+
+Explanation:
+The queue starts as [2,3,2], where the kth person is underlined.
+After the person at the front has bought a ticket, the queue becomes [3,2,1] at 1 second.
+Continuing this process, the queue becomes [2,1,2] at 2 seconds.
+Continuing this process, the queue becomes [1,2,1] at 3 seconds.
+Continuing this process, the queue becomes [2,1] at 4 seconds. Note: the person at the front left the queue.
+Continuing this process, the queue becomes [1,1] at 5 seconds.
+Continuing this process, the queue becomes [1] at 6 seconds. The kth person has bought all their 
+tickets, so return 6.
+
+"""
+
+
+# class Solution:
+#     def timeRequiredToBuy(self, tickets: List[int], k: int) -> int:
+#         count = 0
+
+#         while tickets[k] != 0:
+#             for i in range(len(tickets)):
+#                 if tickets[i] > 0:
+#                     tickets[i] -= 1
+#                     count += 1
+
+#                     if tickets[k] == 0:
+#                         break
+        
+#         print(count)
+
+
+
+"""
+Given an array of integers temperatures represents the daily temperatures, return an array answer 
+such that answer[i] is the number of days you have to wait after the ith day to get a warmer 
+temperature. If there is no future day for which this is possible, keep answer[i] == 0 instead.
+
+ 
+
+Example 1:
+
+Input: temperatures = [73,74,75,71,69,72,76,73]
+Output: [1,1,4,2,1,1,0,0]
+Example 2:
+
+Input: temperatures = [30,40,50,60]
+Output: [1,1,1,0]
+Example 3:
+
+Input: temperatures = [30,60,90]
+Output: [1,1,0]
+"""
+
+
+# class Solution:
+#     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+#         stack = []
+
+#         ans = [0] * len(temperatures)
+
+#         for i, temp in enumerate(temperatures):
+#             while stack and temperatures[stack[-1]] < temp:
+#                 prev_index = stack.pop()
+#                 ans[prev_index] = i - prev_index
+#             stack.append(i)
+        
+#         return ans
+
+
+
+
+# Your DataStream object will be instantiated and called as such:
+# obj = DataStream(value, k)
+# param_1 = obj.consec(num)
                 
 
 if __name__ == '__main__':
-    s = "leet**cod*e"
-    # s = "erase*****"
-    Solution().minOperations(s)
+    temperatures = [73,74,75,71,69,72,76,73]
+    Solution().dailyTemperatures(temperatures)
