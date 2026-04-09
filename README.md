@@ -80,6 +80,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0138-copy-list-with-random-pointer](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0141-linked-list-cycle/) | Easy |
 | [0146-lru-cache](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0146-lru-cache/) | Medium |
+| [0387-first-unique-character-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
@@ -103,6 +104,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
 | [0076-minimum-window-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0076-minimum-window-substring/) | Hard |
 | [0125-valid-palindrome](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0125-valid-palindrome/) | Easy |
+| [0387-first-unique-character-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
@@ -128,6 +130,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2526-find-consecutive-integers-from-a-data-stream/) | Medium |
@@ -300,6 +303,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
 | [2073-time-needed-to-buy-tickets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2526-find-consecutive-integers-from-a-data-stream/) | Medium |
