@@ -13,6 +13,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0027-remove-element/) | Easy |
 | [0056-merge-intervals](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0056-merge-intervals/) | Medium |
+| [0084-largest-rectangle-in-histogram](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
 | [0283-move-zeroes](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0283-move-zeroes/) | Easy |
@@ -288,6 +289,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
+| [0084-largest-rectangle-in-histogram](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
@@ -321,6 +323,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
