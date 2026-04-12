@@ -1,4 +1,5 @@
 from typing import List, Deque
+from collections import deque
 
 
 """
@@ -311,13 +312,138 @@ Output: [1,1,0]
 #         return ans
 
 
+"""
+Given a string s, find the first non-repeating character in it and return its index. If it does not 
+exist, return -1.
 
+ 
 
-# Your DataStream object will be instantiated and called as such:
-# obj = DataStream(value, k)
-# param_1 = obj.consec(num)
+Example 1:
+
+Input: s = "leetcode"
+
+Output: 0
+
+Explanation:
+
+The character 'l' at index 0 is the first character that does not occur at any other index.
+
+Example 2:
+
+Input: s = "loveleetcode"
+
+Output: 2
+
+Example 3:
+
+Input: s = "aabb"
+
+Output: -1
+"""
+
+# class Solution:
+#     def firstUniqChar(self, s: str) -> int:
+
+#         # newS = s
+
+#         d = deque()
+
+#         mapper = {}
+
+#         # print(s.index('o'))
+
+#         for i in range(len(s)):
+#             if s[i] not in mapper:
+#                 mapper[s[i]] = 1
+#             else:
+#                 mapper[s[i]] += 1
+        
+#         for ch in s:
+#             if mapper[ch] == 1:
+#                 d.append(ch)
                 
+#         if d:
+#             ele = s.index(d.popleft())
+#             print(ele)
+#         else:
+#             print(-1)
+
+
+"""
+Given a circular integer array nums (i.e., the next element of nums[nums.length - 1] is nums[0]), return the next greater 
+number for every element in nums.
+
+The next greater number of a number x is the first greater number to its traversing-order next in the array, which means you 
+could search circularly to find its next greater number. If it doesn't exist, return -1 for this number.
+
+ 
+
+Example 1:
+
+Input: nums = [1,2,1]
+Output: [2,-1,2]
+Explanation: The first 1's next greater number is 2; 
+The number 2 can't find next greater number. 
+The second 1's next greater number needs to search circularly, which is also 2.
+Example 2:
+
+Input: nums = [1,2,3,4,3]
+Output: [2,3,4,-1,4]
+"""
+
+
+# class Solution:
+#     def nextGreaterElements(self, nums: List[int]) -> List[int]:
+#         ans = [-1] * len(nums)
+
+#         stack = []
+
+#         for i in range(2 * len(nums)):
+#             # stack.append(nums[i])
+#             while stack and nums[stack[-1]] < nums[i % len(nums)]:
+#                 idx = stack.pop()
+#                 ans[idx] = nums[i % len(nums)]
+            
+#             if i < len(nums):
+#                 stack.append(i)
+            
+#         print(ans)
+
+
+
+"""
+Given an array of integers nums and an integer limit, return the size of the longest 
+non-empty subarray such that the absolute difference between any two elements of this 
+subarray is less than or equal to limit.
+
+ 
+
+Example 1:
+
+Input: nums = [8,2,4,7], limit = 4
+Output: 2 
+Explanation: All subarrays are: 
+[8] with maximum absolute diff |8-8| = 0 <= 4.
+[8,2] with maximum absolute diff |8-2| = 6 > 4. 
+[8,2,4] with maximum absolute diff |8-2| = 6 > 4.
+[8,2,4,7] with maximum absolute diff |8-2| = 6 > 4.
+[2] with maximum absolute diff |2-2| = 0 <= 4.
+[2,4] with maximum absolute diff |2-4| = 2 <= 4.
+[2,4,7] with maximum absolute diff |2-7| = 5 > 4.
+[4] with maximum absolute diff |4-4| = 0 <= 4.
+[4,7] with maximum absolute diff |4-7| = 3 <= 4.
+[7] with maximum absolute diff |7-7| = 0 <= 4. 
+Therefore, the size of the longest subarray is 2.
+"""
+
+class Solution:
+    def longestSubarray(self, nums: List[int], limit: int) -> int:
+        pass
+
+          
 
 if __name__ == '__main__':
-    temperatures = [73,74,75,71,69,72,76,73]
-    Solution().dailyTemperatures(temperatures)
+    nums = [8,2,4,7]
+    limit = 4
+
+    Solution().longestSubarray(nums, limit)
