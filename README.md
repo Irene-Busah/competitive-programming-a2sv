@@ -15,6 +15,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0056-merge-intervals](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0056-merge-intervals/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0283-move-zeroes](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0283-move-zeroes/) | Easy |
@@ -176,6 +177,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0002-add-two-numbers/) | Medium |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
@@ -293,6 +295,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
 | [0084-largest-rectangle-in-histogram](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
