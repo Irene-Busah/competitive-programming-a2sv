@@ -412,38 +412,59 @@ Output: [2,3,4,-1,4]
 
 
 """
-Given an array of integers nums and an integer limit, return the size of the longest 
-non-empty subarray such that the absolute difference between any two elements of this 
-subarray is less than or equal to limit.
+You are given an array of strings tokens that represents an arithmetic expression in a 
+Reverse Polish Notation.
 
- 
+Evaluate the expression. Return an integer that represents the value of the expression.
+
+Note that:
+
+The valid operators are '+', '-', '*', and '/'.
+Each operand may be an integer or another expression.
+The division between two integers always truncates toward zero.
+There will not be any division by zero.
+The input represents a valid arithmetic expression in a reverse polish notation.
+The answer and all the intermediate calculations can be represented in a 32-bit integer.
 
 Example 1:
 
-Input: nums = [8,2,4,7], limit = 4
-Output: 2 
-Explanation: All subarrays are: 
-[8] with maximum absolute diff |8-8| = 0 <= 4.
-[8,2] with maximum absolute diff |8-2| = 6 > 4. 
-[8,2,4] with maximum absolute diff |8-2| = 6 > 4.
-[8,2,4,7] with maximum absolute diff |8-2| = 6 > 4.
-[2] with maximum absolute diff |2-2| = 0 <= 4.
-[2,4] with maximum absolute diff |2-4| = 2 <= 4.
-[2,4,7] with maximum absolute diff |2-7| = 5 > 4.
-[4] with maximum absolute diff |4-4| = 0 <= 4.
-[4,7] with maximum absolute diff |4-7| = 3 <= 4.
-[7] with maximum absolute diff |7-7| = 0 <= 4. 
-Therefore, the size of the longest subarray is 2.
+Input: tokens = ["2","1","+","3","*"]
+Output: 9
+Explanation: ((2 + 1) * 3) = 9
+Example 2:
+
+Input: tokens = ["4","13","5","/","+"]
+Output: 6
+Explanation: (4 + (13 / 5)) = 6
 """
 
 class Solution:
-    def longestSubarray(self, nums: List[int], limit: int) -> int:
-        pass
+    def evalRPN(self, tokens: List[str]) -> int:
 
+        stack = []
+
+        operations = ['+', '-', '*', '/']
+
+        for token in tokens:
+            if token not in operations:
+                stack.append(int(token))
+            else:
+                b = stack.pop()
+                a = stack.pop()
+                
+                if token == "+":
+                    stack.append(a + b)
+                elif token == "-":
+                    stack.append(a - b)
+                elif token == "*":
+                    stack.append(a * b)
+                else:  # division
+                    stack.append(int(a / b))
+        
+        return stack[0]
           
 
 if __name__ == '__main__':
-    nums = [8,2,4,7]
-    limit = 4
+    tokens = ["2","1","+","3","*"]
 
-    Solution().longestSubarray(nums, limit)
+    Solution().evalRPN(tokens)
