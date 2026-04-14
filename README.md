@@ -179,6 +179,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0002-add-two-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0002-add-two-numbers/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
+| [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
@@ -247,6 +248,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [0978-longest-turbulent-subarray](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0978-longest-turbulent-subarray/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -290,6 +292,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0203-remove-linked-list-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0203-remove-linked-list-elements/) | Easy |
 | [0206-reverse-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -347,4 +350,8 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0239-sliding-window-maximum/) | Hard |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 <!---LeetCode Topics End-->
