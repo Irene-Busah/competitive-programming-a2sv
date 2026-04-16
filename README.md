@@ -187,6 +187,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
+| [0779-k-th-symbol-in-grammar](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0779-k-th-symbol-in-grammar/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1922-count-good-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1922-count-good-numbers/) | Medium |
@@ -304,6 +305,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
 | [0394-decode-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0394-decode-string/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
+| [0779-k-th-symbol-in-grammar](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0779-k-th-symbol-in-grammar/) | Medium |
 | [1922-count-good-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1922-count-good-numbers/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -371,4 +373,5 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
+| [0779-k-th-symbol-in-grammar](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0779-k-th-symbol-in-grammar/) | Medium |
 <!---LeetCode Topics End-->
