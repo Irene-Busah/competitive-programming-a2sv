@@ -48,6 +48,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1637-widest-vertical-area-between-two-points-containing-no-points](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1637-widest-vertical-area-between-two-points-containing-no-points/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1695-maximum-erasure-value](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1695-maximum-erasure-value/) | Medium |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1887-reduction-operations-to-make-the-array-elements-equal/) | Medium |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2009-minimum-number-of-operations-to-make-array-continuous/) | Hard |
@@ -190,6 +191,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0779-k-th-symbol-in-grammar](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0779-k-th-symbol-in-grammar/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 | [1922-count-good-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1922-count-good-numbers/) | Medium |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2165-smallest-value-of-the-rearranged-number/) | Medium |
 ## Greedy
@@ -306,6 +308,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0394-decode-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0394-decode-string/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [0779-k-th-symbol-in-grammar](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0779-k-th-symbol-in-grammar/) | Medium |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 | [1922-count-good-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1922-count-good-numbers/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -329,6 +332,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 | [2073-time-needed-to-buy-tickets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Queue
@@ -338,6 +342,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0387-first-unique-character-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 | [2073-time-needed-to-buy-tickets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2526-find-consecutive-integers-from-a-data-stream/) | Medium |
 ## Data Stream
