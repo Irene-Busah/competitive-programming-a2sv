@@ -188,6 +188,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
+| [1922-count-good-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1922-count-good-numbers/) | Medium |
 | [2165-smallest-value-of-the-rearranged-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2165-smallest-value-of-the-rearranged-number/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -301,6 +302,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0326-power-of-three](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
+| [1922-count-good-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1922-count-good-numbers/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
