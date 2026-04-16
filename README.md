@@ -112,6 +112,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0076-minimum-window-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0076-minimum-window-substring/) | Hard |
 | [0125-valid-palindrome](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0125-valid-palindrome/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0387-first-unique-character-in-a-string/) | Easy |
+| [0394-decode-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0394-decode-string/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
@@ -301,6 +302,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0326-power-of-three](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
+| [0394-decode-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0394-decode-string/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [1922-count-good-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1922-count-good-numbers/) | Medium |
 ## Stack
@@ -310,6 +312,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0084-largest-rectangle-in-histogram](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0394-decode-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0394-decode-string/) | Medium |
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
