@@ -25,6 +25,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0304-range-sum-query-2d-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0414-third-maximum-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0414-third-maximum-number/) | Easy |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
+| [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
@@ -185,6 +186,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
 | [0326-power-of-three](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
+| [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
@@ -259,6 +261,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0118-pascals-triangle](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0119-pascals-triangle-ii/) | Easy |
+| [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [0978-longest-turbulent-subarray](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0978-longest-turbulent-subarray/) | Medium |
 ## Matrix
@@ -272,6 +275,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Game Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
@@ -306,6 +310,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0326-power-of-three](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
 | [0394-decode-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0394-decode-string/) | Medium |
+| [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [0779-k-th-symbol-in-grammar](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0779-k-th-symbol-in-grammar/) | Medium |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
