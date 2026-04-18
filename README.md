@@ -113,6 +113,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
 | [0076-minimum-window-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0076-minimum-window-substring/) | Hard |
 | [0125-valid-palindrome](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0125-valid-palindrome/) | Easy |
+| [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0387-first-unique-character-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0394-decode-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0394-decode-string/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
@@ -184,6 +185,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0002-add-two-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0002-add-two-numbers/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
+| [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0326-power-of-three](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
 | [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
@@ -261,6 +263,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0118-pascals-triangle](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0119-pascals-triangle-ii/) | Easy |
+| [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [0978-longest-turbulent-subarray](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0978-longest-turbulent-subarray/) | Medium |
@@ -307,6 +310,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0203-remove-linked-list-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0203-remove-linked-list-elements/) | Easy |
 | [0206-reverse-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0326-power-of-three](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
 | [0394-decode-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0394-decode-string/) | Medium |
@@ -378,6 +382,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
