@@ -183,6 +183,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0002-add-two-numbers/) | Medium |
+| [0050-powx-n](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0050-powx-n/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
 | [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
@@ -307,6 +308,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0002-add-two-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0002-add-two-numbers/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0024-swap-nodes-in-pairs](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0024-swap-nodes-in-pairs/) | Medium |
+| [0050-powx-n](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0050-powx-n/) | Medium |
 | [0203-remove-linked-list-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0203-remove-linked-list-elements/) | Easy |
 | [0206-reverse-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
