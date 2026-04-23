@@ -219,6 +219,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0278-first-bad-version](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0278-first-bad-version/) | Easy |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [0704-binary-search](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0704-binary-search/) | Easy |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2009-minimum-number-of-operations-to-make-array-continuous/) | Hard |
@@ -402,4 +403,8 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
 | [0779-k-th-symbol-in-grammar](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0779-k-th-symbol-in-grammar/) | Medium |
+## Interactive
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0278-first-bad-version](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0278-first-bad-version/) | Easy |
 <!---LeetCode Topics End-->
