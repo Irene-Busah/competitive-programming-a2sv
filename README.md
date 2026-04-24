@@ -35,6 +35,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0704-binary-search](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0704-binary-search/) | Easy |
 | [0724-find-pivot-index](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0724-find-pivot-index/) | Easy |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
+| [0853-car-fleet](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0853-car-fleet/) | Medium |
 | [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0962-maximum-width-ramp](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0962-maximum-width-ramp/) | Medium |
@@ -74,6 +75,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
+| [0853-car-fleet](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0853-car-fleet/) | Medium |
 | [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1637-widest-vertical-area-between-two-points-containing-no-points](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1637-widest-vertical-area-between-two-points-containing-no-points/) | Easy |
@@ -343,6 +345,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
+| [0853-car-fleet](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0853-car-fleet/) | Medium |
 | [0901-online-stock-span](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0901-online-stock-span/) | Medium |
 | [0962-maximum-width-ramp](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0962-maximum-width-ramp/) | Medium |
 | [1598-crawler-log-folder](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1598-crawler-log-folder/) | Easy |
@@ -382,6 +385,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
+| [0853-car-fleet](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0853-car-fleet/) | Medium |
 | [0901-online-stock-span](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0901-online-stock-span/) | Medium |
 | [0962-maximum-width-ramp](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0962-maximum-width-ramp/) | Medium |
 ## Depth-First Search
