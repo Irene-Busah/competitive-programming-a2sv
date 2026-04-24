@@ -265,6 +265,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0303-range-sum-query-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0707-design-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0707-design-linked-list/) | Medium |
+| [0901-online-stock-span](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0901-online-stock-span/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2526-find-consecutive-integers-from-a-data-stream/) | Medium |
 ## Dynamic Programming
@@ -342,6 +343,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
+| [0901-online-stock-span](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0901-online-stock-span/) | Medium |
 | [0962-maximum-width-ramp](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0962-maximum-width-ramp/) | Medium |
 | [1598-crawler-log-folder](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1598-crawler-log-folder/) | Easy |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
@@ -370,6 +372,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0901-online-stock-span](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0901-online-stock-span/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2526-find-consecutive-integers-from-a-data-stream/) | Medium |
 ## Monotonic Stack
@@ -379,6 +382,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
+| [0901-online-stock-span](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0901-online-stock-span/) | Medium |
 | [0962-maximum-width-ramp](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0962-maximum-width-ramp/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
