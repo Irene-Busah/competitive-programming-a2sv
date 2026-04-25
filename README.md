@@ -117,6 +117,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0003-longest-substring-without-repeating-characters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0010-regular-expression-matching](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0010-regular-expression-matching/) | Hard |
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
+| [0071-simplify-path](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0071-simplify-path/) | Medium |
 | [0076-minimum-window-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0076-minimum-window-substring/) | Hard |
 | [0125-valid-palindrome](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0125-valid-palindrome/) | Easy |
 | [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
@@ -338,6 +339,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
+| [0071-simplify-path](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0071-simplify-path/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
