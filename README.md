@@ -137,6 +137,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2486-append-characters-to-string-to-make-subsequence/) | Medium |
 | [2730-find-the-longest-semi-repetitive-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2730-find-the-longest-semi-repetitive-substring/) | Medium |
+| [3174-clear-digits](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/3174-clear-digits/) | Easy |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -355,6 +356,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1598-crawler-log-folder](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1598-crawler-log-folder/) | Easy |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
+| [3174-clear-digits](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/3174-clear-digits/) | Easy |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -367,6 +369,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1823-find-the-winner-of-the-circular-game](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 | [2073-time-needed-to-buy-tickets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2073-time-needed-to-buy-tickets/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2390-removing-stars-from-a-string/) | Medium |
+| [3174-clear-digits](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/3174-clear-digits/) | Easy |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
