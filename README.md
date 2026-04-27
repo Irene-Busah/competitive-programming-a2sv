@@ -200,6 +200,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0326-power-of-three](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0342-power-of-four/) | Easy |
+| [0441-arranging-coins](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0441-arranging-coins/) | Easy |
 | [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
@@ -226,6 +227,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0278-first-bad-version](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0278-first-bad-version/) | Easy |
+| [0441-arranging-coins](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0441-arranging-coins/) | Easy |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [0704-binary-search](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0704-binary-search/) | Easy |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
