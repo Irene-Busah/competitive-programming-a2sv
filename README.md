@@ -36,6 +36,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0704-binary-search](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0704-binary-search/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0724-find-pivot-index/) | Easy |
+| [0729-my-calendar-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0729-my-calendar-i/) | Medium |
 | [0735-asteroid-collision](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0853-car-fleet/) | Medium |
@@ -237,6 +238,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0658-find-k-closest-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0704-binary-search](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0704-binary-search/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0713-subarray-product-less-than-k/) | Medium |
+| [0729-my-calendar-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0729-my-calendar-i/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2009-minimum-number-of-operations-to-make-array-continuous/) | Hard |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
@@ -284,6 +286,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0303-range-sum-query-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0707-design-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0707-design-linked-list/) | Medium |
+| [0729-my-calendar-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0729-my-calendar-i/) | Medium |
 | [0901-online-stock-span](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0901-online-stock-span/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
 | [2526-find-consecutive-integers-from-a-data-stream](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2526-find-consecutive-integers-from-a-data-stream/) | Medium |
@@ -417,6 +420,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Ordered Set
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0729-my-calendar-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0729-my-calendar-i/) | Medium |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
 ## Monotonic Queue
 | Problem Name | Difficulty |
@@ -437,4 +441,8 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0278-first-bad-version](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0278-first-bad-version/) | Easy |
+## Segment Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0729-my-calendar-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0729-my-calendar-i/) | Medium |
 <!---LeetCode Topics End-->
