@@ -12,6 +12,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0018-4sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0018-4sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0027-remove-element/) | Easy |
+| [0033-search-in-rotated-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0056-merge-intervals](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0056-merge-intervals/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
@@ -233,6 +234,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0278-first-bad-version](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0278-first-bad-version/) | Easy |
 | [0441-arranging-coins](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0441-arranging-coins/) | Easy |
