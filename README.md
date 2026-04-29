@@ -205,6 +205,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0002-add-two-numbers/) | Medium |
 | [0050-powx-n](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0050-powx-n/) | Medium |
+| [0069-sqrtx](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0069-sqrtx/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
 | [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
@@ -237,6 +238,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0069-sqrtx](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0069-sqrtx/) | Easy |
 | [0278-first-bad-version](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0278-first-bad-version/) | Easy |
 | [0441-arranging-coins](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0441-arranging-coins/) | Easy |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
