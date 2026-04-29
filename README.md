@@ -32,6 +32,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0523-continuous-subarray-sum/) | Medium |
+| [0641-design-circular-deque](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0641-design-circular-deque/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0704-binary-search](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0704-binary-search/) | Easy |
@@ -290,6 +291,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0146-lru-cache](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0146-lru-cache/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0641-design-circular-deque](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0641-design-circular-deque/) | Medium |
 | [0707-design-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0707-design-linked-list/) | Medium |
 | [0729-my-calendar-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0729-my-calendar-i/) | Medium |
 | [0901-online-stock-span](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0901-online-stock-span/) | Medium |
@@ -336,6 +338,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0206-reverse-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0430-flatten-a-multilevel-doubly-linked-list/) | Medium |
+| [0641-design-circular-deque](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0641-design-circular-deque/) | Medium |
 | [0707-design-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0707-design-linked-list/) | Medium |
 | [0725-split-linked-list-in-parts](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0725-split-linked-list-in-parts/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
@@ -398,6 +401,7 @@ A personal repository for tracking my competitive programming practice and progr
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0387-first-unique-character-in-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0387-first-unique-character-in-a-string/) | Easy |
+| [0641-design-circular-deque](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0641-design-circular-deque/) | Medium |
 | [0933-number-of-recent-calls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0933-number-of-recent-calls/) | Easy |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
