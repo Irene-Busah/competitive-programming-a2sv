@@ -42,6 +42,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0735-asteroid-collision](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0735-asteroid-collision/) | Medium |
 | [0739-daily-temperatures](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0853-car-fleet/) | Medium |
+| [0875-koko-eating-bananas](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0962-maximum-width-ramp](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0962-maximum-width-ramp/) | Medium |
@@ -246,6 +247,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0704-binary-search](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0704-binary-search/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [0729-my-calendar-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0729-my-calendar-i/) | Medium |
+| [0875-koko-eating-bananas](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1552-magnetic-force-between-two-balls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2009-minimum-number-of-operations-to-make-array-continuous/) | Hard |
