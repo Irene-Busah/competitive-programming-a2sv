@@ -27,6 +27,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0304-range-sum-query-2d-immutable](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0414-third-maximum-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0414-third-maximum-number/) | Easy |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
+| [0475-heaters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0475-heaters/) | Medium |
 | [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
 | [0496-next-greater-element-i](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0503-next-greater-element-ii/) | Medium |
@@ -84,6 +85,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0414-third-maximum-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0414-third-maximum-number/) | Easy |
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
+| [0475-heaters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0475-heaters/) | Medium |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0853-car-fleet](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0853-car-fleet/) | Medium |
@@ -188,6 +190,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0283-move-zeroes](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0283-move-zeroes/) | Easy |
 | [0443-string-compression](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0443-string-compression/) | Medium |
 | [0455-assign-cookies](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0455-assign-cookies/) | Easy |
+| [0475-heaters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0475-heaters/) | Medium |
 | [0567-permutation-in-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0567-permutation-in-string/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0658-find-k-closest-elements/) | Medium |
@@ -243,6 +246,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0069-sqrtx](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0069-sqrtx/) | Easy |
 | [0278-first-bad-version](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0278-first-bad-version/) | Easy |
 | [0441-arranging-coins](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0441-arranging-coins/) | Easy |
+| [0475-heaters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0475-heaters/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0704-binary-search](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0704-binary-search/) | Easy |
