@@ -470,8 +470,14 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0450-delete-node-in-a-bst](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0450-delete-node-in-a-bst/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0450-delete-node-in-a-bst](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0450-delete-node-in-a-bst/) | Medium |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0450-delete-node-in-a-bst](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0450-delete-node-in-a-bst/) | Medium |
 <!---LeetCode Topics End-->
