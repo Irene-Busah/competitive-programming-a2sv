@@ -436,6 +436,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0430-flatten-a-multilevel-doubly-linked-list/) | Medium |
 ## Ordered Set
@@ -469,6 +470,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
@@ -476,6 +478,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
@@ -486,4 +489,8 @@ A personal repository for tracking my competitive programming practice and progr
 | [0450-delete-node-in-a-bst](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
