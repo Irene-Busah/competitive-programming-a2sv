@@ -378,6 +378,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
 | [0071-simplify-path](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0071-simplify-path/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0094-binary-tree-inorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0234-palindrome-linked-list/) | Easy |
@@ -436,6 +437,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0430-flatten-a-multilevel-doubly-linked-list/) | Medium |
@@ -470,6 +472,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0450-delete-node-in-a-bst/) | Medium |
@@ -478,6 +481,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0450-delete-node-in-a-bst/) | Medium |
