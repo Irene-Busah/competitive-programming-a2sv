@@ -56,6 +56,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [1089-duplicate-zeros](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1089-duplicate-zeros/) | Easy |
 | [1109-corporate-flight-bookings](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1109-corporate-flight-bookings/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [1268-search-suggestions-system](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1268-search-suggestions-system/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
 | [1480-running-sum-of-1d-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1480-running-sum-of-1d-array/) | Easy |
@@ -91,6 +92,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0658-find-k-closest-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0853-car-fleet](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0853-car-fleet/) | Medium |
 | [0881-boats-to-save-people](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0881-boats-to-save-people/) | Medium |
+| [1268-search-suggestions-system](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1268-search-suggestions-system/) | Medium |
 | [1552-magnetic-force-between-two-balls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1561-maximum-number-of-coins-you-can-get/) | Medium |
 | [1637-widest-vertical-area-between-two-points-containing-no-points](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1637-widest-vertical-area-between-two-points-containing-no-points/) | Easy |
@@ -145,6 +147,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0567-permutation-in-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0567-permutation-in-string/) | Medium |
 | [0680-valid-palindrome-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0680-valid-palindrome-ii/) | Easy |
 | [1234-replace-the-substring-for-balanced-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1234-replace-the-substring-for-balanced-string/) | Medium |
+| [1268-search-suggestions-system](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1268-search-suggestions-system/) | Medium |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1598-crawler-log-folder](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1598-crawler-log-folder/) | Easy |
 | [2062-count-vowel-substrings-of-a-string](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2062-count-vowel-substrings-of-a-string/) | Easy |
@@ -160,6 +163,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0451-sort-characters-by-frequency](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0506-relative-ranks](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0506-relative-ranks/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0658-find-k-closest-elements/) | Medium |
+| [1268-search-suggestions-system](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1268-search-suggestions-system/) | Medium |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
@@ -258,6 +262,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0744-find-smallest-letter-greater-than-target/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1268-search-suggestions-system](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1268-search-suggestions-system/) | Medium |
 | [1552-magnetic-force-between-two-balls](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2009-minimum-number-of-operations-to-make-array-continuous/) | Hard |
 | [2824-count-pairs-whose-sum-is-less-than-target](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/2824-count-pairs-whose-sum-is-less-than-target/) | Easy |
@@ -502,4 +507,8 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1268-search-suggestions-system](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/1268-search-suggestions-system/) | Medium |
 <!---LeetCode Topics End-->
