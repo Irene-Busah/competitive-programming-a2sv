@@ -19,6 +19,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0088-merge-sorted-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0088-merge-sorted-array/) | Easy |
 | [0118-pascals-triangle](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0119-pascals-triangle-ii/) | Easy |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0189-rotate-array](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0189-rotate-array/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0239-sliding-window-maximum/) | Hard |
@@ -313,6 +314,7 @@ A personal repository for tracking my competitive programming practice and progr
 | [0010-regular-expression-matching](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0010-regular-expression-matching/) | Hard |
 | [0118-pascals-triangle](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0119-pascals-triangle-ii/) | Easy |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0241-different-ways-to-add-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0486-predict-the-winner](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0486-predict-the-winner/) | Medium |
 | [0509-fibonacci-number](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0509-fibonacci-number/) | Easy |
