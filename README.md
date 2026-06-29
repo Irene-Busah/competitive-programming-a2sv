@@ -130,6 +130,7 @@ A personal repository for tracking my competitive programming practice and progr
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0005-longest-palindromic-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0010-regular-expression-matching](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0010-regular-expression-matching/) | Hard |
 | [0020-valid-parentheses](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0020-valid-parentheses/) | Easy |
 | [0071-simplify-path](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0071-simplify-path/) | Medium |
@@ -174,6 +175,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0011-container-with-most-water](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0015-3sum/) | Medium |
 | [0016-3sum-closest](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0016-3sum-closest/) | Medium |
@@ -311,6 +313,7 @@ A personal repository for tracking my competitive programming practice and progr
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0010-regular-expression-matching](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0010-regular-expression-matching/) | Hard |
 | [0118-pascals-triangle](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/Irene-Busah/competitive-programming-a2sv/tree/main/0119-pascals-triangle-ii/) | Easy |
